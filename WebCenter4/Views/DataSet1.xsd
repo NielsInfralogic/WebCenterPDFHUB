@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DataSet1" targetNamespace="http://www.tempuri.org/DataSet1.xsd" xmlns:mstns="http://www.tempuri.org/DataSet1.xsd" xmlns="http://www.tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:Locale="da-DK">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="PageTable">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CopySeparationSet" type="xs:int" />
+                            <xs:element name="SeparationSet" type="xs:int" />
+                            <xs:element name="Separation" type="xs:int" />
+                            <xs:element name="CopyFlatSeparationSet" type="xs:int" />
+                            <xs:element name="FlatSeparationSet" type="xs:int" />
+                            <xs:element name="FlatSeparation" type="xs:int" />
+                            <xs:element name="Status" type="xs:int" minOccurs="0" />
+                            <xs:element name="ExternalStatus" type="xs:int" minOccurs="0" />
+                            <xs:element name="PublicationID" type="xs:int" />
+                            <xs:element name="SectionID" type="xs:int" />
+                            <xs:element name="EditionID" type="xs:int" />
+                            <xs:element name="IssueID" type="xs:int" />
+                            <xs:element name="PubDate" type="xs:dateTime" />
+                            <xs:element name="PageName" type="xs:string" />
+                            <xs:element name="ColorID" type="xs:int" />
+                            <xs:element name="TemplateID" type="xs:int" minOccurs="0" />
+                            <xs:element name="ProofID" type="xs:int" />
+                            <xs:element name="DeviceID" type="xs:int" minOccurs="0" />
+                            <xs:element name="Version" type="xs:int" minOccurs="0" />
+                            <xs:element name="Layer" type="xs:int" />
+                            <xs:element name="CopyNumber" type="xs:int" />
+                            <xs:element name="Pagination" type="xs:int" minOccurs="0" />
+                            <xs:element name="Approved" type="xs:int" minOccurs="0" />
+                            <xs:element name="Hold" type="xs:int" minOccurs="0" />
+                            <xs:element name="Active" type="xs:int" />
+                            <xs:element name="Priority" type="xs:int" minOccurs="0" />
+                            <xs:element name="PagePosition" type="xs:int" minOccurs="0" />
+                            <xs:element name="PageType" type="xs:int" minOccurs="0" />
+                            <xs:element name="PagesOnPlate" type="xs:int" minOccurs="0" />
+                            <xs:element name="SheetNumber" type="xs:int" minOccurs="0" />
+                            <xs:element name="SheetSide" type="xs:int" minOccurs="0" />
+                            <xs:element name="PressID" type="xs:int" minOccurs="0" />
+                            <xs:element name="PressSectionNumber" type="xs:int" minOccurs="0" />
+                            <xs:element name="SortingPosition" type="xs:int" minOccurs="0" />
+                            <xs:element name="PressTower" type="xs:string" minOccurs="0" />
+                            <xs:element name="PressCylinder" type="xs:string" minOccurs="0" />
+                            <xs:element name="PressZone" type="xs:string" minOccurs="0" />
+                            <xs:element name="PressHighLow" type="xs:string" minOccurs="0" />
+                            <xs:element name="ProductionID" type="xs:int" minOccurs="0" />
+                            <xs:element name="PressRunID" type="xs:int" minOccurs="0" />
+                            <xs:element name="ProofStatus" type="xs:int" minOccurs="0" />
+                            <xs:element name="InkStatus" type="xs:int" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:PageTable" />
+            <xs:field xpath="mstns:Separation" />
+        </xs:unique>
+    </xs:element>
+</xs:schema>

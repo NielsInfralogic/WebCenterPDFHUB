@@ -1,0 +1,162 @@
+/* Default CSS Stylesheet for a new Web Application project */
+
+body
+{
+	font-weight: normal;
+	font-size: 0.8em;
+	background-color: #f0f4f8;
+	word-spacing: normal;
+	text-transform: none;
+	font-family: Verdana;
+	letter-spacing: normal;
+}
+
+.smallToolBar .rtbOuter {
+    display: block !important;
+}
+.smallToolBar .rtbInner {
+    padding: 0 !important;
+}
+.smallToolBar .rtbItem {
+    height: 28px !important;
+}
+.smallToolBar .rtbIcon {
+    padding: 0 !important;
+}
+
+td.smalltext 
+{
+    color: white;
+    font-size: 10px;
+}
+
+td.white {
+    color: white;
+}
+
+td.whitebold {
+    color: white;
+    font-weight: bold;
+}
+
+td.sectiontitle 
+{
+    color: #333333;
+    font-weight: bold;
+    padding-left:4px;
+}
+
+.caption 
+{
+  padding-left: 0px;
+  border-right: #4A7AC9 0px solid;
+  background-color: #b0c4de;
+  background-image: URL(images/caption_back.gif);
+}
+
+.content 
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: #4A7AC9 1px solid;
+  background-color: #E9F0FC;
+}
+
+.content2 
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: #4A7AC9 1px solid;
+  background-color: #E9F0FC;
+}
+
+.Text
+{
+	font-family: Verdana;
+	font-size: 10px; 
+	font-weight: normal; 
+	color:black;
+}
+
+.HeaderText
+{
+	font-family: Verdana;
+	font-size: 12px; 
+	font-weight: normal; 
+	color:#253d91;
+}
+
+.RadToolbarLabel
+{
+	color:#384e73;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    line-height: 16px;
+}
+
+.RadToolbarLabelBold
+{
+	color:#384e73;
+    font: bold 14px "Segoe UI", Arial, Helvetica, sans-serif;
+    line-height: 16px;
+}
+
+.RadToolbarSplitButton
+{
+    color: #296885;
+
+}
+
+.Label
+{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold; 
+	color:#253d91;
+}
+
+
+.LabelHeader
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold; 
+	color:Black;
+}
+
+.LabelNormal
+{
+	font-family: Verdana;
+	font-size: 0.8em;
+	color: black;
+}
+
+
+.Tab
+{
+	font-family: Verdana;
+	font-weight: bold; 
+	color:#003366;
+}
+
+.Button
+{
+	font-family: Verdana; 
+	font-size: 10px;
+	font-weight: bold; 
+	color:Black;
+}
+
+.Link	
+{
+	font-size: 0.7em;
+	text-decoration:	none;
+	color:	#003366;
+}
+
+.uploadedfiles {
+             padding: 10px;
+             width: 300px;
+             border-radius: 10px;
+             background: #e7f9ff;
+             font-size: 12px;
+        }

@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BAB7DB78-C43C-4F90-8C2C-E51E33B28EB3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebCenter4</RootNamespace>
+    <AssemblyName>WebCenterPdfHub</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IL.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Excel">
+      <HintPath>..\..\..\DotNetLibs\Excel_Jetcell_net\Bin\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PDFlib_dotnet, Version=9.1.2.1, Culture=neutral, PublicKeyToken=af0805f2b25bb299, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebCenter4_Backup_2019.01.31_04.12.42\bin\PDFlib_dotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.Design, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\Telerik.Web.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.Device.Detection, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\Telerik.Web.Device.Detection.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.Spreadsheet, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Web.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Flow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Tree.aspx" />
+    <Content Include="Default.htm" />
+    <Content Include="Denied.htm" />
+    <Content Include="Error.aspx" />
+    <Content Include="Error.htm" />
+    <Content Include="FrameSet.aspx" />
+    <Content Include="IL.ico" />
+    <Content Include="Login.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="Menu.aspx" />
+    <Content Include="NoPage.gif" />
+    <Content Include="Profile.aspx" />
+    <Content Include="SessionTimeout.htm" />
+    <Content Include="Styles\AC_RunActiveContent.js" />
+    <Content Include="Styles\BrowserSizze.js" />
+    <Content Include="Styles\flash-zoomer.css" />
+    <Content Include="Styles\GetScreen.js" />
+    <Content Include="Styles\selectbox.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\swfobject.js" />
+    <Content Include="Styles\swfobject21.js" />
+    <Content Include="Styles\TreeStyles.css" />
+    <Content Include="Styles\TreeView.js" />
+    <Content Include="Styles\WebCenter.css" />
+    <Content Include="TimeError.htm" />
+    <Content Include="Views\Acrobatview.aspx" />
+    <Content Include="Views\InsertPages.aspx" />
+    <Content Include="Views\PlanViewPPM.aspx" />
+    <Content Include="Views\PlanViewExtendedXMLplateplans.aspx" />
+    <Content Include="Views\PlanViewExtendedXML - Copy.aspx" />
+    <Content Include="Views\PlanViewExtendedXML.aspx" />
+    <Content Include="Views\ReadyAction.aspx" />
+    <Content Include="Views\ReimagePDF.aspx" />
+    <Content Include="Views\RenameFiles.aspx" />
+    <Content Include="Views\RetransmitLocations.aspx" />
+    <Content Include="Views\SetExternalStatus.aspx" />
+    <Content Include="Views\ClassicTableView2.aspx" />
+    <Content Include="Views\PressRunsChannels.aspx" />
+    <Content Include="Views\RetransmitChannels.aspx" />
+    <Content Include="Views\ChangeChannels.aspx" />
+    <Content Include="Views\ChangeEditionInfo.aspx" />
+    <Content Include="Views\AddEditions.aspx" />
+    <Content Include="Views\ChangeColor.aspx" />
+    <Content Include="Views\ChangeColorPDF.aspx" />
+    <Content Include="Views\ChangePriority.aspx" />
+    <Content Include="Views\ChangePrioritySeps.aspx" />
+    <Content Include="Views\ChangeTemplate.aspx" />
+    <Content Include="Views\ChartImage.aspx" />
+    <Content Include="Views\ChartImage2.aspx" />
+    <Content Include="Views\AlwanReportview.aspx" />
+    <Content Include="Views\AddEditionInfo.aspx" />
+    <Content Include="Views\ClassicTableView.aspx" />
+    <Content Include="Views\Flatview2.aspx" />
+    <Content Include="Views\MobileView.aspx" />
+    <Content Include="Views\PlanViewExtended.aspx" />
+    <Content Include="Views\ReleasePresses.aspx" />
+    <Content Include="Views\ReprocessPressRun.aspx" />
+    <Content Include="Views\CustomAction.aspx" />
+    <Content Include="Views\Pagekill.aspx" />
+    <Content Include="Views\ReleaseAll.aspx" />
+    <Content Include="Views\ReprocessPage.aspx" />
+    <Content Include="Views\ThumbnailviewChannels.aspx" />
+    <Content Include="Views\LogView.aspx" />
+    <Content Include="Views\UploadView.aspx" />
+    <Content Include="Views\UnknownFiles.aspx" />
+    <Content Include="Views\UploadPlan.aspx" />
+    <Content Include="Views\UploadFile.aspx" />
+    <Content Include="Views\Flatview3.aspx" />
+    <Content Include="Views\DownloadPDF.aspx" />
+    <Content Include="Views\HardProof.aspx" />
+    <Content Include="Views\Logwindow.aspx" />
+    <Content Include="Views\ManagePageFormats.aspx" />
+    <Content Include="Views\ManagePublications.aspx" />
+    <Content Include="Views\Message.aspx" />
+    <Content Include="Views\MessageSimple.aspx" />
+    <Content Include="Views\PDFview.aspx" />
+    <Content Include="Views\PitstopReportview.aspx" />
+    <Content Include="Views\PlanView.aspx" />
+    <Content Include="Views\PressRuns.aspx" />
+    <Content Include="Views\PressRunsImages.aspx" />
+    <Content Include="Views\PrintFrame.aspx" />
+    <Content Include="Views\Readview.aspx" />
+    <Content Include="Views\Reimage.aspx" />
+    <Content Include="Views\ReportArchive.aspx" />
+    <Content Include="Views\ReportView.aspx" />
+    <Content Include="Views\ShowMessage.aspx" />
+    <Content Include="Views\ShowPageHistory.aspx" />
+    <Content Include="Views\ShowProductMessages.aspx" />
+    <Content Include="Views\Tableview.aspx" />
+    <Content Include="Views\Thumbnailview2.aspx" />
+    <Content Include="Views\UploadFiles.aspx" />
+    <Content Include="Views\ApproveAll.aspx" />
+    <Content Include="Views\ZoomviewFlash2.aspx" />
+    <Content Include="Views\ZoomviewFlatFlash2.aspx" />
+    <Content Include="Views\ZoomviewReadFlash2.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ShowFileDistLog.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\CCDBaccess.cs" />
+    <Compile Include="Classes\ChannelStatus.cs" />
+    <Compile Include="Classes\Globals.cs" />
+    <Compile Include="Classes\LdapAuthentication.cs" />
+    <Compile Include="Classes\NameCaches.cs" />
+    <Compile Include="Classes\Pageplan.cs" />
+    <Compile Include="Classes\PagiFile.cs" />
+    <Compile Include="Classes\PPMDBaccess.cs" />
+    <Compile Include="Classes\PPMModels.cs" />
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tree.aspx.cs">
+      <DependentUpon>Tree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrameSet.aspx.cs">
+      <DependentUpon>FrameSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tree.aspx.designer.cs">
+      <DependentUpon>Tree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Acrobatview.aspx.cs">
+      <DependentUpon>Acrobatview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Acrobatview.aspx.designer.cs">
+      <DependentUpon>Acrobatview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditionInfo.aspx.designer.cs">
+      <DependentUpon>AddEditionInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditions.aspx.designer.cs">
+      <DependentUpon>AddEditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AlwanReportview.aspx.designer.cs">
+      <DependentUpon>AlwanReportview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeColor.aspx.designer.cs">
+      <DependentUpon>ChangeColor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeColorPDF.aspx.designer.cs">
+      <DependentUpon>ChangeColorPDF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeEditionInfo.aspx.designer.cs">
+      <DependentUpon>ChangeEditionInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangePriority.aspx.designer.cs">
+      <DependentUpon>ChangePriority.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangePrioritySeps.aspx.designer.cs">
+      <DependentUpon>ChangePrioritySeps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeTemplate.aspx.designer.cs">
+      <DependentUpon>ChangeTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DownloadPDF.aspx.designer.cs">
+      <DependentUpon>DownloadPDF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Flatview2.aspx.designer.cs">
+      <DependentUpon>Flatview2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Flatview3.aspx.designer.cs">
+      <DependentUpon>Flatview3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HardProof.aspx.designer.cs">
+      <DependentUpon>HardProof.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InsertPages.aspx.cs">
+      <DependentUpon>InsertPages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\InsertPages.aspx.designer.cs">
+      <DependentUpon>InsertPages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Logwindow.aspx.designer.cs">
+      <DependentUpon>Logwindow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManagePageFormats.aspx.designer.cs">
+      <DependentUpon>ManagePageFormats.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManagePublications.aspx.designer.cs">
+      <DependentUpon>ManagePublications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Message.aspx.designer.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MessageSimple.aspx.designer.cs">
+      <DependentUpon>MessageSimple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PDFview.aspx.designer.cs">
+      <DependentUpon>PDFview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PitstopReportview.aspx.designer.cs">
+      <DependentUpon>PitstopReportview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlanView.aspx.designer.cs">
+      <DependentUpon>PlanView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlanViewPPM.aspx.cs">
+      <DependentUpon>PlanViewPPM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PlanViewExtendedXMLplateplans.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PlanViewExtendedXMLplateplans.aspx.cs">
+      <DependentUpon>PlanViewExtendedXMLplateplans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PlanViewExtendedXML - Copy.aspx.cs">
+      <DependentUpon>PlanViewExtendedXML - Copy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PlanViewExtendedXML.aspx.cs">
+      <DependentUpon>PlanViewExtendedXML.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PlanViewExtendedXML.designer.cs" />
+    <Compile Include="Views\PlanViewPPM.designer.cs" />
+    <Compile Include="Views\ReadyAction.aspx.cs">
+      <DependentUpon>ReadyAction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ReadyAction.aspx.designer.cs">
+      <DependentUpon>ReadyAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReimagePDF.aspx.cs">
+      <DependentUpon>ReimagePDF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\RenameFiles.aspx.cs">
+      <DependentUpon>RenameFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\RenameFiles.aspx.designer.cs">
+      <DependentUpon>RenameFiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RetransmitLocations.aspx.cs">
+      <DependentUpon>RetransmitLocations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\RetransmitLocations.aspx.designer.cs">
+      <DependentUpon>RetransmitLocations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SetExternalStatus.aspx.cs">
+      <DependentUpon>SetExternalStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\SetExternalStatus.aspx.designer.cs">
+      <DependentUpon>SetExternalStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ClassicTableView2.aspx.cs">
+      <DependentUpon>ClassicTableView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ClassicTableView2.aspx.designer.cs">
+      <DependentUpon>ClassicTableView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PressRunsChannels.aspx.cs">
+      <DependentUpon>PressRunsChannels.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\RetransmitChannels.aspx.cs">
+      <DependentUpon>RetransmitChannels.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\RetransmitChannels.aspx.designer.cs">
+      <DependentUpon>RetransmitChannels.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeChannels.aspx.cs">
+      <DependentUpon>ChangeChannels.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChangeChannels.aspx.designer.cs">
+      <DependentUpon>ChangeChannels.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeEditionInfo.aspx.cs">
+      <DependentUpon>ChangeEditionInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditions.aspx.cs">
+      <DependentUpon>AddEditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChangeColor.aspx.cs">
+      <DependentUpon>ChangeColor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChangeColorPDF.aspx.cs">
+      <DependentUpon>ChangeColorPDF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChangePriority.aspx.cs">
+      <DependentUpon>ChangePriority.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChangePrioritySeps.aspx.cs">
+      <DependentUpon>ChangePrioritySeps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChangeTemplate.aspx.cs">
+      <DependentUpon>ChangeTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChartImage.aspx.cs">
+      <DependentUpon>ChartImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChartImage2.aspx.cs">
+      <DependentUpon>ChartImage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\AlwanReportview.aspx.cs">
+      <DependentUpon>AlwanReportview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditionInfo.aspx.cs">
+      <DependentUpon>AddEditionInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ClassicTableView.aspx.cs">
+      <DependentUpon>ClassicTableView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ClassicTableView.aspx.designer.cs">
+      <DependentUpon>ClassicTableView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Flatview2.aspx.cs">
+      <DependentUpon>Flatview2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\MobileView.aspx.cs">
+      <DependentUpon>MobileView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\MobileView.aspx.designer.cs">
+      <DependentUpon>MobileView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlanViewExtended.aspx.cs">
+      <DependentUpon>PlanViewExtended.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ReleasePresses.aspx.cs">
+      <DependentUpon>ReleasePresses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ReleasePresses.aspx.designer.cs">
+      <DependentUpon>ReleasePresses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReprocessPressRun.aspx.cs">
+      <DependentUpon>ReprocessPressRun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ReprocessPressRun.aspx.designer.cs">
+      <DependentUpon>ReprocessPressRun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomAction.aspx.cs">
+      <DependentUpon>CustomAction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CustomAction.aspx.designer.cs">
+      <DependentUpon>CustomAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pagekill.aspx.cs">
+      <DependentUpon>Pagekill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Pagekill.aspx.designer.cs">
+      <DependentUpon>Pagekill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReleaseAll.aspx.cs">
+      <DependentUpon>ReleaseAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ReleaseAll.aspx.designer.cs">
+      <DependentUpon>ReleaseAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReprocessPage.aspx.cs">
+      <DependentUpon>ReprocessPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ReprocessPage.aspx.designer.cs">
+      <DependentUpon>ReprocessPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Thumbnailview2.aspx.designer.cs">
+      <DependentUpon>Thumbnailview2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ThumbnailviewChannels.aspx.cs">
+      <DependentUpon>ThumbnailviewChannels.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\LogView.aspx.cs">
+      <DependentUpon>LogView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\LogView.aspx.designer.cs">
+      <DependentUpon>LogView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UploadView.aspx.cs">
+      <DependentUpon>UploadView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\UploadView.aspx.designer.cs">
+      <DependentUpon>UploadView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UnknownFiles.aspx.cs">
+      <DependentUpon>UnknownFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\UnknownFiles.aspx.designer.cs">
+      <DependentUpon>UnknownFiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UploadPlan.aspx.cs">
+      <DependentUpon>UploadPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\UploadFile.aspx.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Flatview3.aspx.cs">
+      <DependentUpon>Flatview3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\DownloadPDF.aspx.cs">
+      <DependentUpon>DownloadPDF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\HardProof.aspx.cs">
+      <DependentUpon>HardProof.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Logwindow.aspx.cs">
+      <DependentUpon>Logwindow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ManagePageFormats.aspx.cs">
+      <DependentUpon>ManagePageFormats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ManagePublications.aspx.cs">
+      <DependentUpon>ManagePublications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Message.aspx.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\MessageSimple.aspx.cs">
+      <DependentUpon>MessageSimple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PDFview.aspx.cs">
+      <DependentUpon>PDFview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PitstopReportview.aspx.cs">
+      <DependentUpon>PitstopReportview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PlanView.aspx.cs">
+      <DependentUpon>PlanView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PressRuns.aspx.cs">
+      <DependentUpon>PressRuns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PressRunsImages.aspx.cs">
+      <DependentUpon>PressRunsImages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PrintFrame.aspx.cs">
+      <DependentUpon>PrintFrame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Readview.aspx.cs">
+      <DependentUpon>Readview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Reimage.aspx.cs">
+      <DependentUpon>Reimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ReportArchive.aspx.cs">
+      <DependentUpon>ReportArchive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ReportView.aspx.cs">
+      <DependentUpon>ReportView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ShowMessage.aspx.cs">
+      <DependentUpon>ShowMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ShowPageHistory.aspx.cs">
+      <DependentUpon>ShowPageHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ShowProductMessages.aspx.cs">
+      <DependentUpon>ShowProductMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Tableview.aspx.cs">
+      <DependentUpon>Tableview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Thumbnailview2.aspx.cs">
+      <DependentUpon>Thumbnailview2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\UploadFiles.aspx.cs">
+      <DependentUpon>UploadFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ApproveAll.aspx.cs">
+      <DependentUpon>ApproveAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ApproveAll.aspx.designer.cs">
+      <DependentUpon>ApproveAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ZoomviewFlash2.aspx.cs">
+      <DependentUpon>ZoomviewFlash2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ZoomviewFlatFlash2.aspx.cs">
+      <DependentUpon>ZoomviewFlatFlash2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ZoomviewReadFlash2.aspx.cs">
+      <DependentUpon>ZoomviewReadFlash2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowFileDistLog.aspx.cs">
+      <DependentUpon>ShowFileDistLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowFileDistLog.aspx.designer.cs">
+      <DependentUpon>ShowFileDistLog.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Tree.aspx.resx">
+      <DependentUpon>Tree.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Error.aspx.resx">
+      <DependentUpon>Error.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrameSet.aspx.resx">
+      <DependentUpon>FrameSet.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.aspx.resx">
+      <DependentUpon>Login.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.aspx.resx">
+      <DependentUpon>Main.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.aspx.resx">
+      <DependentUpon>Menu.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.aspx.resx">
+      <DependentUpon>Profile.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.da.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.fi.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.ko.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.no.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.sv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.zh-cn.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Acrobatview.aspx.resx">
+      <DependentUpon>Acrobatview.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ChangeEditionInfo.aspx.resx">
+      <DependentUpon>ChangeEditionInfo.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditions.aspx.resx">
+      <DependentUpon>AddEditions.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ChangeColor.aspx.resx">
+      <DependentUpon>ChangeColor.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ChangeColorPDF.aspx.resx">
+      <DependentUpon>ChangeColorPDF.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ChangePriority.aspx.resx">
+      <DependentUpon>ChangePriority.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ChangePrioritySeps.aspx.resx">
+      <DependentUpon>ChangePrioritySeps.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ChangeTemplate.aspx.resx">
+      <DependentUpon>ChangeTemplate.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ChartImage.aspx.resx">
+      <DependentUpon>ChartImage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ChartImage2.aspx.resx">
+      <DependentUpon>ChartImage2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AlwanReportview.aspx.resx">
+      <DependentUpon>AlwanReportview.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditionInfo.aspx.resx">
+      <DependentUpon>AddEditionInfo.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Flatview2.aspx.resx">
+      <DependentUpon>Flatview2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanViewPPM.aspx.resx">
+      <DependentUpon>PlanViewPPM.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanViewExtendedXMLplateplans.aspx.resx">
+      <DependentUpon>PlanViewExtendedXMLplateplans.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanViewExtendedXML - Copy.aspx.resx">
+      <DependentUpon>PlanViewExtendedXML - Copy.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanViewExtendedXML.aspx.resx">
+      <DependentUpon>PlanViewExtendedXML.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanViewExtended.aspx.resx">
+      <DependentUpon>PlanViewExtended.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PressRunsChannels.aspx.resx">
+      <DependentUpon>PressRunsChannels.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReimagePDF.aspx.resx">
+      <DependentUpon>ReimagePDF.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ThumbnailviewChannels.aspx.resx">
+      <DependentUpon>ThumbnailviewChannels.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UploadPlan.aspx.resx">
+      <DependentUpon>UploadPlan.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UploadFile.aspx.resx">
+      <DependentUpon>UploadFile.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Flatview3.aspx.resx">
+      <DependentUpon>Flatview3.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DownloadPDF.aspx.resx">
+      <DependentUpon>DownloadPDF.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\HardProof.aspx.resx">
+      <DependentUpon>HardProof.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Logwindow.aspx.resx">
+      <DependentUpon>Logwindow.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ManagePageFormats.aspx.resx">
+      <DependentUpon>ManagePageFormats.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ManagePublications.aspx.resx">
+      <DependentUpon>ManagePublications.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Message.aspx.resx">
+      <DependentUpon>Message.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MessageSimple.aspx.resx">
+      <DependentUpon>MessageSimple.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PDFview.aspx.resx">
+      <DependentUpon>PDFview.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PitstopReportview.aspx.resx">
+      <DependentUpon>PitstopReportview.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanView.aspx.resx">
+      <DependentUpon>PlanView.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PressRuns.aspx.resx">
+      <DependentUpon>PressRuns.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PressRunsImages.aspx.resx">
+      <DependentUpon>PressRunsImages.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PrintFrame.aspx.resx">
+      <DependentUpon>PrintFrame.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Readview.aspx.resx">
+      <DependentUpon>Readview.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Reimage.aspx.resx">
+      <DependentUpon>Reimage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportArchive.aspx.resx">
+      <DependentUpon>ReportArchive.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportView.aspx.resx">
+      <DependentUpon>ReportView.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ShowMessage.aspx.resx">
+      <DependentUpon>ShowMessage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ShowPageHistory.aspx.resx">
+      <DependentUpon>ShowPageHistory.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ShowProductMessages.aspx.resx">
+      <DependentUpon>ShowProductMessages.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Tableview.aspx.resx">
+      <DependentUpon>Tableview.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Thumbnailview2.aspx.resx">
+      <DependentUpon>Thumbnailview2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UploadFiles.aspx.resx">
+      <DependentUpon>UploadFiles.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ZoomviewFlash2.aspx.resx">
+      <DependentUpon>ZoomviewFlash2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ZoomviewFlatFlash2.aspx.resx">
+      <DependentUpon>ZoomviewFlatFlash2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ZoomviewReadFlash2.aspx.resx">
+      <DependentUpon>ZoomviewReadFlash2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="InfraLogic2.pfx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>27442</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/WebCenterPDFHUB</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

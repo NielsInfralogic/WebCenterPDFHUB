@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="txtRealName">
+		<value>Real name:</value>
+	</data>
+	<data name="txtEmail">
+		<value>E-mail:</value>
+	</data>
+	<data name="txtImagesPerRow">
+		<value>Pages par rangée</value>
+	</data>
+	<data name="txtRefreshTime">
+		<value>Rafraîchir toutes les</value>
+	</data>
+	<data name="txtProfileFor">
+		<value>Profil pour</value>
+	</data>
+	<data name="txtSave">
+		<value>Sauvegarder</value>
+	</data>
+	<data name="txtUserName">
+		<value>Nom d'utilisateur</value>
+	</data>
+	<data name="txtPassword">
+		<value>Mot de passe</value>
+	</data>
+	<data name="txtMustHavePassword">
+		<value>Vous devez saisir un mot de passe</value>
+	</data>
+	<data name="txtMyProfile">
+		<value>Mon profil</value>
+	</data>
+	<data name="txtContactAdmin">
+		<value>Contacter l'administrateur</value>
+	</data>
+	<data name="txtChangePassword">
+		<value>Changer le mot de passe</value>
+	</data>
+	<data name="txtUserLogin">
+		<value>Nom d'utilisateur</value>
+	</data>
+	<data name="txtLogin">
+		<value>Connexion</value>
+	</data>
+	<data name="txtHelp">
+		<value>Aide</value>
+	</data>
+	<data name="txtLogout">
+		<value>Déconnexion</value>
+	</data>
+	<data name="txtAbout">
+		<value>A propos</value>
+	</data>
+	<data name="txtProductionTree">
+		<value>Arborescence</value>
+	</data>
+	<data name="txtApprove">
+		<value>Approuver</value>
+	</data>
+	<data name="txtReject">
+		<value>Refuser</value>
+	</data>
+	<data name="txtBack">
+		<value>Précédent</value>
+	</data>
+	<data name="txtHideApprovedPages">
+		<value>Masquer les pages approuvées</value>
+	</data>
+	<data name="txtAll">
+		<value>Toute</value>
+	</data>
+	<data name="txtDBerror">
+		<value>Erreur lors de la connexion à la base de données</value>
+	</data>
+	<data name="txtHideDuplicates">
+		<value>Masquer les doublons</value>
+	</data>
+	<data name="txtLogViewer">
+		<value>Journal des visualiseurs</value>
+	</data>
+	<data name="txtLatestErrors">
+		<value>Dernières erreurs</value>
+	</data>
+	<data name="txtOutputLog">
+		<value>Journal des sorties</value>
+	</data>
+	<data name="txtPollingLog">
+		<value>Journal des entrées</value>
+	</data>
+	<data name="txtProcessDead">
+		<value>Process suspendu</value>
+	</data>
+	<data name="txtRefresh">
+		<value>Rafraîchir</value>
+	</data>
+	<data name="txtTransmitLog">
+		<value>Journal des diffusions</value>
+	</data>
+	<data name="txtRipLog">
+		<value>Journal du RIP</value>
+	</data>
+	<data name="txtPages">
+		<value>Pages</value>
+	</data>
+	<data name="txtPlates">
+		<value>Plaques</value>
+	</data>
+	<data name="txtRuns">
+		<value>Tirages</value>
+	</data>
+	<data name="txtFlow">
+		<value>Flux</value>
+	</data>
+	<data name="txtSeps">
+		<value>Séparations</value>
+	</data>
+	<data name="txtPublication">
+		<value>Publication</value>
+	</data>
+	<data name="txtEdition">
+		<value>Edition</value>
+	</data>
+	<data name="txtIssue">
+		<value>Résultat</value>
+	</data>
+	<data name="txtSection">
+		<value>Section</value>
+	</data>
+	<data name="txtPubDate">
+		<value>Date de publication</value>
+	</data>
+	<data name="txtReImage">
+		<value>Re-image</value>
+	</data>
+	<data name="txtKillColor">
+		<value>Neutraliser la couleur</value>
+	</data>
+	<data name="txtPriority">
+		<value>Changer la priorité</value>
+	</data>
+	<data name="txtLogToShow">
+		<value>Journal à afficher</value>
+	</data>
+	<data name="txtSelectMode">
+		<value>Sélectionner le mode</value>
+	</data>
+	<data name="txtOnHold">
+		<value>Interruption</value>
+	</data>
+	<data name="txtReleased">
+		<value>Publié</value>
+	</data>
+	<data name="txtApproved">
+		<value>Approuvé</value>
+	</data>
+	<data name="txtRejected">
+		<value>Refusé</value>
+	</data>
+	<data name="txtDownloadJava">
+		<value>Charger Flash runtime</value>
+	</data>
+	<data name="txtNotes">
+		<value>Charger les instructions</value>
+	</data>
+	<data name="txtTemplate">
+		<value>Changer le gabarit</value>
+	</data>
+	<data name="txtNotApproved">
+		<value>Pas approuvé</value>
+	</data>
+	<data name="txtAllCopies">
+		<value>Toutes les copies</value>
+	</data>
+	<data name="txtTemplate">
+		<value>Gabarit</value>
+	</data>
+	<data name="txtPriority2">
+		<value>Priorité</value>
+	</data>
+	<data name="txtAllPages">
+		<value>Toutes les pages sur la plaque</value>
+	</data>
+	<data name="txtAllColors">
+		<value>Toutes les couleurs</value>
+	</data>
+	<data name="txtCancel">
+		<value>Annuler</value>
+	</data>
+	<data name="txtApply">
+		<value>Appliquer</value>
+	</data>
+	<data name="txtUserNotFound">
+		<value>Le nom de l'utisateur n'est pas reconnu</value>
+	</data>
+	<data name="txtPasswordNotMatch">
+		<value>Le mot de passe est incorrect. Essayez de nouveau.</value>
+	</data>
+	<data name="txtAccountDisabled">
+		<value>Votre compte est actuellement désactivé - contactez l'administrateur système</value>
+	</data>
+	<data name="txtNoApprovalRequired">
+		<value>Pas de validation requise</value>
+	</data>
+	<data name="txtFrontSide">
+		<value>Recto</value>
+	</data>
+	<data name="txtBackSide">
+		<value>Verso</value>
+	</data>
+	<data name="txtOf">
+		<value>de</value>
+	</data>
+	<data name="txtPlateSize">
+		<value>Taille de plaque</value>
+	</data>
+	<data name="txtPress">
+		<value>Machine d'impression</value>
+	</data>
+	<data name="txtSendMailOnReject">
+		<value>Envoi d'e-mail si rejet</value>
+	</data>
+	<data name="txtComment">
+		<value>Commentaire</value>
+	</data>
+	<data name="txtPlan">
+		<value>Plan</value>
+	</data>
+	<data name="txtAddPlan">
+		<value>Ajouter un plan</value>
+	</data>
+	<data name="txtAddPlan2">
+		<value>Ajouter un plan de page temporaire au système</value>
+	</data>
+	<data name="txtPubDate2">
+		<value>Date d'édition</value>
+	</data>
+	<data name="txtApprovalRequired">
+		<value>Approbation nécessaire</value>
+	</data>
+	<data name="txtCombineSections">
+		<value>Associer les sections sur un seul tirage d'impression</value>
+	</data>
+	<data name="txtSections">
+		<value>Section(s)</value>
+	</data>
+	<data name="txtPress2">
+		<value>Machine d'impression (si connue)</value>
+	</data>
+	<data name="txtTemplate2">
+		<value>Gabarit (si connu)</value>
+	</data>
+	<data name="txtProofMethod">
+		<value>Mode d'épreuvage</value>
+	</data>
+	<data name="txtPriority2">
+		<value>Priorité</value>
+	</data>
+	<data name="txtSavePlan">
+		<value>Sauvegarder le plan</value>
+	</data>
+	<data name="txtCloseColors">
+		<value>Fermer la table des couleurs</value>
+	</data>
+	<data name="txtReloadCaches">
+		<value>Recharger les caches</value>
+	</data>
+	<data name="txtAdminTasks">
+		<value>Fonctions administratives</value>
+	</data>
+	<data name="txtPlanHeader">
+		<value>Créer nouveaux plans</value>
+	</data>
+	<data name="txtOffset">
+		<value>Offset</value>
+	</data>
+	<data name="txtPagePrefix">
+		<value>Préfixe du nom de page</value>
+	</data>
+	<data name="txtPagePostfix">
+		<value>Suffixe du nom de page</value>
+	</data>
+	<data name="txtColors">
+		<value>Couleurs</value>
+	</data>
+	<data name="txtCopies">
+		<value>Copies</value>
+	</data>
+	<data name="txtPage">
+		<value>Page</value>
+	</data>
+	<data name="ColumnIndex_Active">
+		<value>Actif</value>
+	</data>
+	<data name="txtStatus">
+		<value>Statut</value>
+	</data>
+	<data name="txtExtStatus">
+		<value>ExtStatut</value>
+	</data>
+	<data name="txtHold">
+		<value>En cours</value>
+	</data>
+	<data name="txtSheetSide">
+		<value>Côté de la feuille</value>
+	</data>
+	<data name="txtInput">
+		<value>Input</value>
+	</data>
+	<data name="txtOutput">
+		<value>Output</value>
+	</data>
+	<data name="txtState">
+		<value>Etat</value>
+	</data>
+	<data name="txtShowInactive">
+		<value>Affichage inactif</value>
+	</data>
+	<data name="txtColor">
+		<value>Couleur</value>
+	</data>
+	<data name="txtVersion">
+		<value>Version</value>
+	</data>
+	<data name="txtApproval">
+		<value>Approbation</value>
+	</data>
+	<data name="txtPlateReadyTime">
+		<value>Plate ready time</value>
+	</data>
+	<data name="txtSpread">
+		<value>Spread</value>
+	</data>
+</root>

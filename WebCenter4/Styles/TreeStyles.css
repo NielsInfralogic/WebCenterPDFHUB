@@ -1,0 +1,27 @@
+.MyNode, .MyNodeOver, .MyNodeSelected
+{
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	cursor: hand;
+}
+
+.MyNode
+{
+	color: darkgreen;
+}
+
+.MyNodeOver
+{
+	color: #FF8000;
+}
+
+.MyNodeSelected
+{
+	background-color: #FFC000;
+	color: black
+}
+
+.MyNodeSpecial
+{
+	color: darkred;
+}

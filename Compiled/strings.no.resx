@@ -1,0 +1,1281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtRealName" xml:space="preserve">
+    <value>Fullt navn:</value>
+  </data>
+  <data name="txtEmail" xml:space="preserve">
+    <value>Epost:</value>
+  </data>
+  <data name="txtImagesPerRow" xml:space="preserve">
+    <value>Sider per rad</value>
+  </data>
+  <data name="txtRefreshTime" xml:space="preserve">
+    <value>Auto-refresh tid</value>
+  </data>
+  <data name="txtProfileFor" xml:space="preserve">
+    <value>Profil for</value>
+  </data>
+  <data name="txtSave" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="txtUserName" xml:space="preserve">
+    <value>Brukernavn</value>
+  </data>
+  <data name="txtPassword" xml:space="preserve">
+    <value>Passord</value>
+  </data>
+  <data name="txtMustHavePassword" xml:space="preserve">
+    <value>Du m angi et passord</value>
+  </data>
+  <data name="txtMyProfile" xml:space="preserve">
+    <value>Min profil</value>
+  </data>
+  <data name="txtContactAdmin" xml:space="preserve">
+    <value>Kontakt administrator</value>
+  </data>
+  <data name="txtChangePassword" xml:space="preserve">
+    <value>Bytt passord</value>
+  </data>
+  <data name="txtUserLogin" xml:space="preserve">
+    <value>Bruker logginn</value>
+  </data>
+  <data name="txtLogin" xml:space="preserve">
+    <value>Logg inn</value>
+  </data>
+  <data name="txtHelp" xml:space="preserve">
+    <value>Hjelp</value>
+  </data>
+  <data name="txtLogout" xml:space="preserve">
+    <value>Logg ut</value>
+  </data>
+  <data name="txtAbout" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="txtProductionTree" xml:space="preserve">
+    <value>Produksjoner</value>
+  </data>
+  <data name="txtApprove" xml:space="preserve">
+    <value>Godkjenn</value>
+  </data>
+  <data name="txtReject" xml:space="preserve">
+    <value>Avvis</value>
+  </data>
+  <data name="txtBack" xml:space="preserve">
+    <value>Tilbake</value>
+  </data>
+  <data name="txtHideApprovedPages" xml:space="preserve">
+    <value>Skjul godkjente sider</value>
+  </data>
+  <data name="txtAll" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="txtDBerror" xml:space="preserve">
+    <value>Feil i databasekommunikasjon</value>
+  </data>
+  <data name="txtHideDuplicates" xml:space="preserve">
+    <value>Skjul dubletter</value>
+  </data>
+  <data name="txtLogViewer" xml:space="preserve">
+    <value>Vis logg</value>
+  </data>
+  <data name="txtLatestErrors" xml:space="preserve">
+    <value>Nyeste feil</value>
+  </data>
+  <data name="txtOutputLog" xml:space="preserve">
+    <value>Utkjøringslogg</value>
+  </data>
+  <data name="txtPollingLog" xml:space="preserve">
+    <value>Mottakslogg</value>
+  </data>
+  <data name="txtProcessDead" xml:space="preserve">
+    <value>Prossess stoppet</value>
+  </data>
+  <data name="txtRefresh" xml:space="preserve">
+    <value>Oppfrisk</value>
+  </data>
+  <data name="txtTransmitLog" xml:space="preserve">
+    <value>Sendelogg</value>
+  </data>
+  <data name="txtRipLog" xml:space="preserve">
+    <value>RIP logg</value>
+  </data>
+  <data name="txtPages" xml:space="preserve">
+    <value>Sider</value>
+  </data>
+  <data name="txtPlates" xml:space="preserve">
+    <value>Plater</value>
+  </data>
+  <data name="txtRuns" xml:space="preserve">
+    <value>Pressekjøringer</value>
+  </data>
+  <data name="txtFlow" xml:space="preserve">
+    <value>Flyt</value>
+  </data>
+  <data name="txtSeps" xml:space="preserve">
+    <value>Separasjoner</value>
+  </data>
+  <data name="txtPublication" xml:space="preserve">
+    <value>Publikasjoner</value>
+  </data>
+  <data name="txtEdition" xml:space="preserve">
+    <value>Edisjon</value>
+  </data>
+  <data name="txtIssue" xml:space="preserve">
+    <value>Utgave</value>
+  </data>
+  <data name="txtSection" xml:space="preserve">
+    <value>Seksjon</value>
+  </data>
+  <data name="txtPubDate" xml:space="preserve">
+    <value>Utgivelsesdato</value>
+  </data>
+  <data name="txtReImage" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="txtKillColor" xml:space="preserve">
+    <value>Fjern farge</value>
+  </data>
+  <data name="txtPriority" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="txtLogToShow" xml:space="preserve">
+    <value>Logg</value>
+  </data>
+  <data name="txtSelectMode" xml:space="preserve">
+    <value>Valg</value>
+  </data>
+  <data name="txtOnHold" xml:space="preserve">
+    <value>Holdt</value>
+  </data>
+  <data name="txtReleased" xml:space="preserve">
+    <value>Frigitt</value>
+  </data>
+  <data name="txtApproved" xml:space="preserve">
+    <value>Godkjent</value>
+  </data>
+  <data name="txtRejected" xml:space="preserve">
+    <value>Avvist</value>
+  </data>
+  <data name="txtDownloadJava" xml:space="preserve">
+    <value>Last ned Flash runtime</value>
+  </data>
+  <data name="txtNotes" xml:space="preserve">
+    <value>Instruksjoner for nedlasting</value>
+  </data>
+  <data name="txtTemplate" xml:space="preserve">
+    <value>Mal</value>
+  </data>
+  <data name="txtNotApproved" xml:space="preserve">
+    <value>Ikke godkjent</value>
+  </data>
+  <data name="txtAllCopies" xml:space="preserve">
+    <value>Alle kopier</value>
+  </data>
+  <data name="txtPriority2" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="txtAllPages" xml:space="preserve">
+    <value>Alle sider på platen</value>
+  </data>
+  <data name="txtAllColors" xml:space="preserve">
+    <value>Alle farger</value>
+  </data>
+  <data name="txtCancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="txtApply" xml:space="preserve">
+    <value>Bruk</value>
+  </data>
+  <data name="txtUserNotFound" xml:space="preserve">
+    <value>Brukernavn ikke funnet</value>
+  </data>
+  <data name="txtPasswordNotMatch" xml:space="preserve">
+    <value>Feil passord. Prøv igjen</value>
+  </data>
+  <data name="txtAccountDisabled" xml:space="preserve">
+    <value>Kontoen er ikke aktiv - kontakt system administrator</value>
+  </data>
+  <data name="txtNoApprovalRequired" xml:space="preserve">
+    <value>Auto-godkendelse</value>
+  </data>
+  <data name="txtFrontSide" xml:space="preserve">
+    <value>Odd</value>
+  </data>
+  <data name="txtBackSide" xml:space="preserve">
+    <value>Even</value>
+  </data>
+  <data name="txtOf" xml:space="preserve">
+    <value>av</value>
+  </data>
+  <data name="txtPlateSize" xml:space="preserve">
+    <value>Platestørrelse</value>
+  </data>
+  <data name="txtPress" xml:space="preserve">
+    <value>Presse</value>
+  </data>
+  <data name="txtSendMailOnReject" xml:space="preserve">
+    <value>Send mail ved avvisning</value>
+  </data>
+  <data name="txtComment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="txtPlan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="txtAddPlan" xml:space="preserve">
+    <value>Legg til plan</value>
+  </data>
+  <data name="txtAddPlan2" xml:space="preserve">
+    <value>Lag ny plan</value>
+  </data>
+  <data name="txtPubDate2" xml:space="preserve">
+    <value>Publikasjonsdato</value>
+  </data>
+  <data name="txtApprovalRequired" xml:space="preserve">
+    <value>Godkjenning nødvendig</value>
+  </data>
+  <data name="txtCombineSections" xml:space="preserve">
+    <value>Kombiner seksjoner til en pressekjøring</value>
+  </data>
+  <data name="txtSections" xml:space="preserve">
+    <value>Seksjon(er)</value>
+  </data>
+  <data name="txtPress2" xml:space="preserve">
+    <value>Presse (hvis kjent)</value>
+  </data>
+  <data name="txtTemplate2" xml:space="preserve">
+    <value>Mal (hvis kjent)</value>
+  </data>
+  <data name="txtProofMethod" xml:space="preserve">
+    <value>Visningsmetode</value>
+  </data>
+  <data name="txtSavePlan" xml:space="preserve">
+    <value>Lagre plan</value>
+  </data>
+  <data name="txtCloseColors" xml:space="preserve">
+    <value>Lukk fargetabell</value>
+  </data>
+  <data name="txtReloadCaches" xml:space="preserve">
+    <value>Reload caches</value>
+  </data>
+  <data name="txtAdminTasks" xml:space="preserve">
+    <value>Administrativt</value>
+  </data>
+  <data name="txtPlanHeader" xml:space="preserve">
+    <value>Lage nye planer</value>
+  </data>
+  <data name="txtOffset" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="txtPagePrefix" xml:space="preserve">
+    <value>Sidenavn start</value>
+  </data>
+  <data name="txtPagePostfix" xml:space="preserve">
+    <value>Sidenavn slutt</value>
+  </data>
+  <data name="txtColors" xml:space="preserve">
+    <value>Farger</value>
+  </data>
+  <data name="txtCopies" xml:space="preserve">
+    <value>Kopier</value>
+  </data>
+  <data name="txtPage" xml:space="preserve">
+    <value>Side</value>
+  </data>
+  <data name="ColumnIndex_Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="txtStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="txtExtStatus" xml:space="preserve">
+    <value>Plate ferdig</value>
+  </data>
+  <data name="txtHold" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="txtSheetSide" xml:space="preserve">
+    <value>Arkside</value>
+  </data>
+  <data name="txtInput" xml:space="preserve">
+    <value>Mottatt</value>
+  </data>
+  <data name="txtOutput" xml:space="preserve">
+    <value>Utkjøring</value>
+  </data>
+  <data name="txtState" xml:space="preserve">
+    <value>Tilstand</value>
+  </data>
+  <data name="txtShowInactive" xml:space="preserve">
+    <value>Vis inaktive</value>
+  </data>
+  <data name="txtColor" xml:space="preserve">
+    <value>Farge</value>
+  </data>
+  <data name="txtVersion" xml:space="preserve">
+    <value>Versjon</value>
+  </data>
+  <data name="txtProductionLocked" xml:space="preserve">
+    <value>Produkt kan ikke lenger endres</value>
+  </data>
+  <data name="txtPageFormat" xml:space="preserve">
+    <value>Sideformat</value>
+  </data>
+  <data name="txtTime" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="txtStatistics" xml:space="preserve">
+    <value>Statistikk</value>
+  </data>
+  <data name="txtChooseProduct" xml:space="preserve">
+    <value>Velg produkt</value>
+  </data>
+  <data name="txtSpreads" xml:space="preserve">
+    <value>Oppslag</value>
+  </data>
+  <data name="txtReadviewBackward" xml:space="preserve">
+    <value>Godkjenn &amp; Forrige</value>
+  </data>
+  <data name="txtUse" xml:space="preserve">
+    <value>Bruk</value>
+  </data>
+  <data name="txtApproveTime" xml:space="preserve">
+    <value>Godkjenningtid</value>
+  </data>
+  <data name="txtTooltipPages" xml:space="preserve">
+    <value>Vis sider som thumbnails</value>
+  </data>
+  <data name="txtTooltipSpreads" xml:space="preserve">
+    <value>Vis sider to-og-to</value>
+  </data>
+  <data name="txtTooltipPlates" xml:space="preserve">
+    <value>Vis plate-status</value>
+  </data>
+  <data name="txtTooltipRuns" xml:space="preserve">
+    <value>Vis aktive pressekjøringer</value>
+  </data>
+  <data name="txtTooltipFlow" xml:space="preserve">
+    <value>Vis system-oversikt</value>
+  </data>
+  <data name="txtTooltipPlan" xml:space="preserve">
+    <value>Legg inn sideplaner</value>
+  </data>
+  <data name="txtTooltipStatistics" xml:space="preserve">
+    <value>Vis inn- og utkjøringsstatistikk</value>
+  </data>
+  <data name="txtTooltipMyProfile" xml:space="preserve">
+    <value>Rediger bruker-profil</value>
+  </data>
+  <data name="txtTooltipHelp" xml:space="preserve">
+    <value>Vis online hjelp</value>
+  </data>
+  <data name="txtTooltipLogout" xml:space="preserve">
+    <value>Logg ut av WebCenter</value>
+  </data>
+  <data name="txtTooltipAbout" xml:space="preserve">
+    <value>WebCenter versjons-informasjon</value>
+  </data>
+  <data name="txtTooltipCollapse" xml:space="preserve">
+    <value>Kollaps produksjons-tre</value>
+  </data>
+  <data name="txtTooltipExpand" xml:space="preserve">
+    <value>Ekspandér produksjons-tre</value>
+  </data>
+  <data name="txtTooltipImagesPerRow" xml:space="preserve">
+    <value>Justér antallet sider som skal vises på skjermen</value>
+  </data>
+  <data name="txtTooltipRefreshTime" xml:space="preserve">
+    <value>Gjenoppfriskningstid</value>
+  </data>
+  <data name="txtTooltipHideApprovedPages" xml:space="preserve">
+    <value>Ikke vis sider som allerede er godkjente</value>
+  </data>
+  <data name="txtTooltipHideDuplicates" xml:space="preserve">
+    <value>Ikke vis dubletter (felles-sider vises kun een gang)</value>
+  </data>
+  <data name="txtPagesPerHour" xml:space="preserve">
+    <value>Sider per time</value>
+  </data>
+  <data name="txtTooltipClickTreeNode" xml:space="preserve">
+    <value>Klikk på en publikasjon, edisjon eller seksjon for å vise side-data</value>
+  </data>
+  <data name="txtActive" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="txtColorsForPage" xml:space="preserve">
+    <value>Farger for side</value>
+  </data>
+  <data name="txtCopyNumber" xml:space="preserve">
+    <value>Kopinummer</value>
+  </data>
+  <data name="txtDeadLine" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="txtDensityMap" xml:space="preserve">
+    <value>Densitetsskala</value>
+  </data>
+  <data name="txtDevice" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="txtHideApproveTime" xml:space="preserve">
+    <value>Skjul godkjenningstider</value>
+  </data>
+  <data name="txtHideInputTime" xml:space="preserve">
+    <value>Skjul ankomsttider</value>
+  </data>
+  <data name="txtHideOutputTime" xml:space="preserve">
+    <value>Skjul utkjøringstider</value>
+  </data>
+  <data name="txtInputTime" xml:space="preserve">
+    <value>Ankomsttid</value>
+  </data>
+  <data name="txtLastError" xml:space="preserve">
+    <value>Nyeste feil</value>
+  </data>
+  <data name="txtLocation" xml:space="preserve">
+    <value>Lokasjon</value>
+  </data>
+  <data name="txtOutputTime" xml:space="preserve">
+    <value>Utkjøringstid</value>
+  </data>
+  <data name="txtPagePositions" xml:space="preserve">
+    <value>Sideposisjoner</value>
+  </data>
+  <data name="txtPagesPerPlate" xml:space="preserve">
+    <value>Sider per plate</value>
+  </data>
+  <data name="txtPageType" xml:space="preserve">
+    <value>Sidetype</value>
+  </data>
+  <data name="txtPagination" xml:space="preserve">
+    <value>Pagina</value>
+  </data>
+  <data name="txtReadviewForward" xml:space="preserve">
+    <value>Godkjenn &amp; Neste</value>
+  </data>
+  <data name="txtReadviewBackwardDis" xml:space="preserve">
+    <value>Afvis &amp; Forrige</value>
+  </data>
+  <data name="txtReadviewForwardDis" xml:space="preserve">
+    <value>Afvis &amp; Næste</value>
+  </data>
+  <data name="txtSheetNumber" xml:space="preserve">
+    <value>Arknummer</value>
+  </data>
+  <data name="txtSpecial" xml:space="preserve">
+    <value>Spesial</value>
+  </data>
+  <data name="txtStatFirstPageApproved" xml:space="preserve">
+    <value>Første godkjente side</value>
+  </data>
+  <data name="txtStatFirstPageInput" xml:space="preserve">
+    <value>Første ankomne side</value>
+  </data>
+  <data name="txtStatFirstPageOutput" xml:space="preserve">
+    <value>Første utkjørte side</value>
+  </data>
+  <data name="txtStatLastPageApproved" xml:space="preserve">
+    <value>Siste godkjente side</value>
+  </data>
+  <data name="txtStatLastPageInput" xml:space="preserve">
+    <value>Siste ankomne side</value>
+  </data>
+  <data name="txtStatLastPageOutput" xml:space="preserve">
+    <value>Siste utkjørte side</value>
+  </data>
+  <data name="txtStatNumberOfPages" xml:space="preserve">
+    <value>Antall sider</value>
+  </data>
+  <data name="txtStatNumberOfPlates" xml:space="preserve">
+    <value>Antall plater</value>
+  </data>
+  <data name="txtStatNumberOfPlatesOutput" xml:space="preserve">
+    <value>Utkjørte plater</value>
+  </data>
+  <data name="txtStatPagesApproved" xml:space="preserve">
+    <value>Godkjente sider</value>
+  </data>
+  <data name="txtStatPagesInput" xml:space="preserve">
+    <value>Ankomne sider</value>
+  </data>
+  <data name="txtStatPagesOutput" xml:space="preserve">
+    <value>Utkjørte sider</value>
+  </data>
+  <data name="txtStatPageVersionStat" xml:space="preserve">
+    <value>Fordeling av side-versjoner</value>
+  </data>
+  <data name="txtTooltipAddPlan" xml:space="preserve">
+    <value>Opprett midlertidig side-plan i systemet</value>
+  </data>
+  <data name="txtTooltipAllColors" xml:space="preserve">
+    <value>Lagre endringer for alle farger </value>
+  </data>
+  <data name="txtTooltipAllCopies" xml:space="preserve">
+    <value>Lagre endringer for alle plate-kopier</value>
+  </data>
+  <data name="txtTooltipAllPages" xml:space="preserve">
+    <value>Lagre endring for alle sider på platen</value>
+  </data>
+  <data name="txtTooltipApprovePage" xml:space="preserve">
+    <value>Klikk for å godkjenne siden</value>
+  </data>
+  <data name="txtTooltipApprovePages" xml:space="preserve">
+    <value>Klikk for å godkjenne sidene</value>
+  </data>
+  <data name="txtTooltipBack" xml:space="preserve">
+    <value>Tilbage til side-oversikt</value>
+  </data>
+  <data name="txtTooltipChangeColor" xml:space="preserve">
+    <value>Klikk for å endre farger</value>
+  </data>
+  <data name="txtTooltipClickImages" xml:space="preserve">
+    <value>Klikk for å vise siden</value>
+  </data>
+  <data name="txtTooltipDisapprovePage" xml:space="preserve">
+    <value>Klikk for å avvise siden</value>
+  </data>
+  <data name="txtTooltipDisapprovePages" xml:space="preserve">
+    <value>Klikk for å avvise sidene</value>
+  </data>
+  <data name="txtTooltipHideApproveTime" xml:space="preserve">
+    <value>Klikk for å skjule/vise godkjenningsstider</value>
+  </data>
+  <data name="txtTooltipHideInputTime" xml:space="preserve">
+    <value>Klikk for å skjule/vise ankomsttider</value>
+  </data>
+  <data name="txtTooltipHideOutputTime" xml:space="preserve">
+    <value>Klikk for å skjule/vise utkjøringstider</value>
+  </data>
+  <data name="txtTooltipKillColo" xml:space="preserve">
+    <value>Klikk for å fjerne valgte farger (eller gjenopprette tidligere fjernede farger)</value>
+  </data>
+  <data name="txtTooltipMoveFieldDown" xml:space="preserve">
+    <value>Flytt feltnavn ned i kolonnelisten</value>
+  </data>
+  <data name="txtTooltipMoveFieldUp" xml:space="preserve">
+    <value>Flytt feltnavn opp i kolonnelisten</value>
+  </data>
+  <data name="txtTooltipPriority" xml:space="preserve">
+    <value>Klik for å endre prioritet for de valgte sider/separasjoner</value>
+  </data>
+  <data name="txtTooltipReadviewBackward" xml:space="preserve">
+    <value>Klikk for å vise de to forgående sider</value>
+  </data>
+  <data name="txtTooltipReadviewForward" xml:space="preserve">
+    <value>Klikk for å vise de to neste sidene</value>
+  </data>
+  <data name="txtTooltipReImage" xml:space="preserve">
+    <value>Klikk for å kjøre ut de valgte sider på nytt</value>
+  </data>
+  <data name="txtTooltipReloadCaches" xml:space="preserve">
+    <value>Les inn cachede navn fra databasen</value>
+  </data>
+  <data name="txtTooltipSavePlan" xml:space="preserve">
+    <value>Opprett sideplan i produksjonsdatabasen</value>
+  </data>
+  <data name="txtTooltipSaveProfile" xml:space="preserve">
+    <value>Lagrer brukerprofilen i databasen</value>
+  </data>
+  <data name="txtTooltipSelectDeselct" xml:space="preserve">
+    <value>Velg/velg bort side/separasjon</value>
+  </data>
+  <data name="txtTooltipSelectDeselctAll" xml:space="preserve">
+    <value>Velg/velg bort alle</value>
+  </data>
+  <data name="txtTooltipSendMailOnReject" xml:space="preserve">
+    <value>Velg denne opsjon for å automatisk sende en mail med vedlagt preview til de(n) definerte mottager(e)</value>
+  </data>
+  <data name="txtTooltipSeps" xml:space="preserve">
+    <value>Klikk for å bytte mellom sideliste og separasjonsliste</value>
+  </data>
+  <data name="txtTooltipShowColorInfo" xml:space="preserve">
+    <value>Klikk for å se farge-informasjon (densiteter)</value>
+  </data>
+  <data name="txtTooltipShowFtpInfo" xml:space="preserve">
+    <value>Klikk for å se FTP-informasjon</value>
+  </data>
+  <data name="txtTooltipShowInactive" xml:space="preserve">
+    <value>Klikk for å skjule/vise inaktive fargeseparasjoner</value>
+  </data>
+  <data name="txtTooltipShowPreflightInfo" xml:space="preserve">
+    <value>Klikk for å vise preflight-informasjon</value>
+  </data>
+  <data name="txtTooltipShowRIPInfo" xml:space="preserve">
+    <value>Klikk for å vise RIP-informasjon</value>
+  </data>
+  <data name="txtTooltipSpecial" xml:space="preserve">
+    <value>Klikk for å redigere fargevalg</value>
+  </data>
+  <data name="txtTooltipStatGraph1" xml:space="preserve">
+    <value>Grafen viser akkumulerte sider som er ankommet/godkjente/utkjørt</value>
+  </data>
+  <data name="txtTooltipStatGraph2" xml:space="preserve">
+    <value>Graf viser hastighet i sider per time for sider som er ankommet/godkjente/utkjørt</value>
+  </data>
+  <data name="txtTooltipTemplate" xml:space="preserve">
+    <value>Klikk for å endre layoutmal for valgte sider/separasjoner</value>
+  </data>
+  <data name="txtTooltipViewPDF" xml:space="preserve">
+    <value>Vis PDF-side i acrobat-viewer plugin</value>
+  </data>
+  <data name="txtUnique" xml:space="preserve">
+    <value>Unik side</value>
+  </data>
+  <data name="txtVerifyTime" xml:space="preserve">
+    <value>Verifikasjonstid</value>
+  </data>
+  <data name="txtStatNumberOfPlatesUsed" xml:space="preserve">
+    <value>Antall brukte plater</value>
+  </data>
+  <data name="txtFTPStatusNotReceived" xml:space="preserve">
+    <value>Ikke mottatt</value>
+  </data>
+  <data name="txtPreflightNotPrefligted" xml:space="preserve">
+    <value>Ikke preflightet</value>
+  </data>
+  <data name="txtRIPNotRipped" xml:space="preserve">
+    <value>Ikke rippet</value>
+  </data>
+  <data name="txtColorNotAnalyzed" xml:space="preserve">
+    <value>Ikke analysert</value>
+  </data>
+  <data name="txtApproval" xml:space="preserve">
+    <value>Godkjenning</value>
+  </data>
+  <data name="txtExternalStatus" xml:space="preserve">
+    <value>Plate ferdig</value>
+  </data>
+  <data name="txtIPoutofrange" xml:space="preserve">
+    <value>Dit IP-nummer er ikke tilladt for login</value>
+  </data>
+  <data name="txtDefaultPageFormat" xml:space="preserve">
+    <value>Default sideformat</value>
+  </data>
+  <data name="txtDefaultSoftproof" xml:space="preserve">
+    <value>Default softproof metode</value>
+  </data>
+  <data name="txtDefaultHardproof" xml:space="preserve">
+    <value>Default hard proof metode</value>
+  </data>
+  <data name="txtTrimToPageFormat" xml:space="preserve">
+    <value>Trim til sideformat</value>
+  </data>
+  <data name="txtMustApprove" xml:space="preserve">
+    <value>Skal godkendes</value>
+  </data>
+  <data name="txtDefaultApprove" xml:space="preserve">
+    <value>Default godkendelsesmethode</value>
+  </data>
+  <data name="txtProductionLockTime" xml:space="preserve">
+    <value>Låsning af produkt (før pubdate i timer)</value>
+  </data>
+  <data name="txtAddNewPublicationName" xml:space="preserve">
+    <value>Læg til nyt publikationsnavn</value>
+  </data>
+  <data name="txtNewPublicationName" xml:space="preserve">
+    <value>Nyt publikasjonsnavn</value>
+  </data>
+  <data name="txtNewPageformatName" xml:space="preserve">
+    <value>Nyt sideformat navn</value>
+  </data>
+  <data name="txtPageFormatWidth" xml:space="preserve">
+    <value>Sideformat bredde (mm)</value>
+  </data>
+  <data name="txtPageFormatHeight" xml:space="preserve">
+    <value>Sideformat høyde (mm)</value>
+  </data>
+  <data name="txtPageFormatBleed" xml:space="preserve">
+    <value>Sideformat bleed (mm)</value>
+  </data>
+  <data name="txtAddNewPageformatName" xml:space="preserve">
+    <value>Læg til nyt sideformat</value>
+  </data>
+  <data name="txtAddNew" xml:space="preserve">
+    <value>Nyt navn</value>
+  </data>
+  <data name="txtUploadFiles" xml:space="preserve">
+    <value>Upload filer</value>
+  </data>
+  <data name="txtTooltipUploadFiles" xml:space="preserve">
+    <value>Upload filer til central server</value>
+  </data>
+  <data name="txtApprovedBy" xml:space="preserve">
+    <value>Godkjent av</value>
+  </data>
+  <data name="txtFinalVersion" xml:space="preserve">
+    <value>Siste versjon</value>
+  </data>
+  <data name="txtMessage" xml:space="preserve">
+    <value>besked</value>
+  </data>
+  <data name="txtProduct" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="txtAddSubedition" xml:space="preserve">
+    <value>Legg til sub-editioner til produkt</value>
+  </data>
+  <data name="txtEditionName" xml:space="preserve">
+    <value>Edisjonsnavn</value>
+  </data>
+  <data name="txtDefaultPagetypeForEdition" xml:space="preserve">
+    <value>Default sidetype for ny sub-edisjon</value>
+  </data>
+  <data name="txtEditions" xml:space="preserve">
+    <value>Edisjoner</value>
+  </data>
+  <data name="txtAdd" xml:space="preserve">
+    <value>Læg til</value>
+  </data>
+  <data name="txtDelete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="lblEditionInfo" xml:space="preserve">
+    <value>Definer alle seksjoner før edisjoner lægges til</value>
+  </data>
+  <data name="txtAddEditions" xml:space="preserve">
+    <value>sub-edisjoner</value>
+  </data>
+  <data name="txtSpread" xml:space="preserve">
+    <value>Oppslag</value>
+  </data>
+  <data name="txtDownloadAll" xml:space="preserve">
+    <value>Last ned alle previews</value>
+  </data>
+  <data name="txtTooltipDownloadAll" xml:space="preserve">
+    <value>Last ned all side-previews som PDF-dokument</value>
+  </data>
+  <data name="txtPlanUpdateSettings" xml:space="preserve">
+    <value>Plan-opdatering</value>
+  </data>
+  <data name="txtPressTime" xml:space="preserve">
+    <value>Pressetid</value>
+  </data>
+  <data name="txtOrder" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="txtMainEdition" xml:space="preserve">
+    <value>Hovededisjon</value>
+  </data>
+  <data name="txtKeepExistingColors" xml:space="preserve">
+    <value>Behåll farger</value>
+  </data>
+  <data name="txtKeepExistingApproval" xml:space="preserve">
+    <value>Behåll godkjenning</value>
+  </data>
+  <data name="txtKeepExistingUnique" xml:space="preserve">
+    <value>Behåll unikke sider</value>
+  </data>
+  <data name="txtPlanAdded" xml:space="preserve">
+    <value>Sideplan OK</value>
+  </data>
+  <data name="txtMaxPlanPagesAllowed" xml:space="preserve">
+    <value>Maksimale antal sider overstiger begrænsningen på </value>
+  </data>
+  <data name="txtViewTime" xml:space="preserve">
+    <value>Sidevisning</value>
+  </data>
+  <data name="txtViewedBy" xml:space="preserve">
+    <value>Set av</value>
+  </data>
+  <data name="txtWeekNumber" xml:space="preserve">
+    <value>Utgivelsesuke</value>
+  </data>
+  <data name="txtDeletePlan" xml:space="preserve">
+    <value>Slet sideplan</value>
+  </data>
+  <data name="txtDeletePlanText" xml:space="preserve">
+    <value>Slet eksisterende sideplan</value>
+  </data>
+  <data name="txtMessages" xml:space="preserve">
+    <value>Beskeder</value>
+  </data>
+  <data name="txtBackward" xml:space="preserve">
+    <value>Forrige</value>
+  </data>
+  <data name="txtForward" xml:space="preserve">
+    <value>Neste</value>
+  </data>
+  <data name="lblWeekNumber2" xml:space="preserve">
+    <value>(0: Ikke brugt)</value>
+  </data>
+  <data name="txtShowReportArchive" xml:space="preserve">
+    <value>Rapport-arkiv..</value>
+  </data>
+  <data name="txtReportArchive" xml:space="preserve">
+    <value>Rapport arkiv</value>
+  </data>
+  <data name="txtShowMonthlySummary" xml:space="preserve">
+    <value>Månedlig oversikt</value>
+  </data>
+  <data name="txtStatColorsets" xml:space="preserve">
+    <value>Farve-sæt</value>
+  </data>
+  <data name="txtStatMonosets" xml:space="preserve">
+    <value>Mono-sæt</value>
+  </data>
+  <data name="txtOverDeadline" xml:space="preserve">
+    <value>Etter deadline</value>
+  </data>
+  <data name="txtRelease" xml:space="preserve">
+    <value>Frigiv</value>
+  </data>
+  <data name="txtTooltipReleasePlates" xml:space="preserve">
+    <value>Frigiv plater</value>
+  </data>
+  <data name="txtTooltipHoldPlates" xml:space="preserve">
+    <value>Hold plater</value>
+  </data>
+  <data name="txtTrim" xml:space="preserve">
+    <value>Trim</value>
+  </data>
+  <data name="txtRetransmitForm" xml:space="preserve">
+    <value>Gen-transmitter form</value>
+  </data>
+  <data name="txtReleaseForm" xml:space="preserve">
+    <value>Frigiv form</value>
+  </data>
+  <data name="txtHoldForm" xml:space="preserve">
+    <value>Hold form</value>
+  </data>
+  <data name="txtReimageForm" xml:space="preserve">
+    <value>Gjenbelys form</value>
+  </data>
+  <data name="txtPlateReadyTime" xml:space="preserve">
+    <value>Form klar</value>
+  </data>
+  <data name="txtApproveAll" xml:space="preserve">
+    <value>Godkjenn alle</value>
+  </data>
+  <data name="txtTooltipApproveAll" xml:space="preserve">
+    <value>Godkjenn alle sider</value>
+  </data>
+  <data name="txtChannel" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="txtChannels" xml:space="preserve">
+    <value>Kanaler</value>
+  </data>
+  <data name="txtProgress" xml:space="preserve">
+    <value>Fremdrift</value>
+  </data>
+  <data name="txtRename" xml:space="preserve">
+    <value>Omdøp</value>
+  </data>
+  <data name="txtRetry" xml:space="preserve">
+    <value>Gen-prøv</value>
+  </data>
+  <data name="txtTooltipDelete" xml:space="preserve">
+    <value>Slet filer fra feil-mappe</value>
+  </data>
+  <data name="txtRetransmittochannels" xml:space="preserve">
+    <value>Gjen-overfør til kanal(er)</value>
+  </data>
+  <data name="txtUnknownFiles" xml:space="preserve">
+    <value>Ukjendte filer</value>
+  </data>
+  <data name="txtTooltipUnknownFiles" xml:space="preserve">
+    <value>Se uregistrerte input filer</value>
+  </data>
+  <data name="txtRetransmittolocations" xml:space="preserve">
+    <value>Gjen-transmitter til lokasjoner</value>
+  </data>
+  <data name="txtLocations" xml:space="preserve">
+    <value>Lokasjoner</value>
+  </data>
+  <data name="txtReleaseAll" xml:space="preserve">
+    <value>Frigi alle</value>
+  </data>
+  <data name="txtTooltipReleaseAll" xml:space="preserve">
+    <value>Frigi alle former</value>
+  </data>
+  <data name="txtHideOld" xml:space="preserve">
+    <value>Skjul gamle</value>
+  </data>
+  <data name="txtTooltipHideOld" xml:space="preserve">
+    <value>Vis ikke produkter med utgivelsesdato ældre end idag</value>
+  </data>
+  <data name="txtTransmitted" xml:space="preserve">
+    <value>Overført</value>
+  </data>
+  <data name="txtMissing" xml:space="preserve">
+    <value>Mangler</value>
+  </data>
+  <data name="txtPaired" xml:space="preserve">
+    <value>Parret</value>
+  </data>
+  <data name="txtTransmitting" xml:space="preserve">
+    <value>Overfører</value>
+  </data>
+  <data name="txtError" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="txtReady" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="txtReleaseSpecial" xml:space="preserve">
+    <value>Frigi til spesifik presse</value>
+  </data>
+  <data name="txtTooltipReleasePlatesSpecial" xml:space="preserve">
+    <value>Frigi til spesiel presse</value>
+  </data>
+  <data name="txtReleasetolocations" xml:space="preserve">
+    <value>Frigi til valgte lokationer</value>
+  </data>
+  <data name="txtReallyKillPage" xml:space="preserve">
+    <value>Slet side</value>
+  </data>
+  <data name="txtKillPageTooltip" xml:space="preserve">
+    <value>Slet side (sætter status til 'Missing')</value>
+  </data>
+  <data name="txtReleaseNow" xml:space="preserve">
+    <value>Frigi nu</value>
+  </data>
+  <data name="txtRetransmit" xml:space="preserve">
+    <value>Gjen-transmitter</value>
+  </data>
+  <data name="txtRetransmitAll" xml:space="preserve">
+    <value>Gjen-overfør alle</value>
+  </data>
+  <data name="txtCustomAction" xml:space="preserve">
+    <value>Lag e-Avis</value>
+  </data>
+  <data name="txtTooltipCustomAction" xml:space="preserve">
+    <value>Lag e-Avis</value>
+  </data>
+  <data name="txtReleaseBlack" xml:space="preserve">
+    <value>Frigi sort</value>
+  </data>
+  <data name="txtReleaseBlackForm" xml:space="preserve">
+    <value>Frigi kun sort form</value>
+  </data>
+  <data name="txtImaged" xml:space="preserve">
+    <value>Utkjørt</value>
+  </data>
+  <data name="txtNotImaged" xml:space="preserve">
+    <value>Ej utkjørt</value>
+  </data>
+  <data name="txtInputTimeAfterDeadline" xml:space="preserve">
+    <value>Levert etter deadline</value>
+  </data>
+  <data name="txtPageHistory" xml:space="preserve">
+    <value>Side-historik</value>
+  </data>
+  <data name="txtShowAllPublications" xml:space="preserve">
+    <value>Vis alle produktnavne</value>
+  </data>
+  <data name="txtBend" xml:space="preserve">
+    <value>Bukket</value>
+  </data>
+  <data name="txtHideDone" xml:space="preserve">
+    <value>Skjul ferdige</value>
+  </data>
+  <data name="txtStatusTooltip" xml:space="preserve">
+    <value>Vis status-oversikt</value>
+  </data>
+  <data name="txtReprocessPage" xml:space="preserve">
+    <value>Gjen-prosess side</value>
+  </data>
+  <data name="txtReprocessPages" xml:space="preserve">
+    <value>Gjen-prosess sider</value>
+  </data>
+  <data name="txtApplyToAllEditions" xml:space="preserve">
+    <value>Bruk for alle utgaver</value>
+  </data>
+  <data name="txtApplyToAllSections" xml:space="preserve">
+    <value>Bruk for alle seksjoner</value>
+  </data>
+  <data name="txtAllCommon" xml:space="preserve">
+    <value>Alle låne-sider</value>
+  </data>
+  <data name="txtAllUnique" xml:space="preserve">
+    <value>Alle unik-sider</value>
+  </data>
+  <data name="txtEditSubeditions" xml:space="preserve">
+    <value>Editér utgave-relasjoner</value>
+  </data>
+  <data name="txtSpecialEditionPages" xml:space="preserve">
+    <value>Unikke/felles sider</value>
+  </data>
+  <data name="txtTooltipRetransmitAll" xml:space="preserve">
+    <value>Gjen-overfør all former</value>
+  </data>
+  <data name="txtPlatesPerRow" xml:space="preserve">
+    <value>Plater per rad</value>
+  </data>
+  <data name="txtTooltipIPlatesPerRow" xml:space="preserve">
+    <value>Plater der vises per rad</value>
+  </data>
+  <data name="txtDownloadPreviews" xml:space="preserve">
+    <value>Last ned JPEGs</value>
+  </data>
+  <data name="txtClose" xml:space="preserve">
+    <value>Lukk</value>
+  </data>
+  <data name="txtChangeColor" xml:space="preserve">
+    <value>Velg farger</value>
+  </data>
+  <data name="txtHardproof" xml:space="preserve">
+    <value>Hardproof side</value>
+  </data>
+  <data name="txtKillPage" xml:space="preserve">
+    <value>Slet side</value>
+  </data>
+  <data name="txtReproof" xml:space="preserve">
+    <value>Gjen-proof side</value>
+  </data>
+  <data name="txtTooltipShowCMYKPDFSplit" xml:space="preserve">
+    <value>Vis rippet side og PDF side sammen</value>
+  </data>
+  <data name="txtList" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="txtTooltipList" xml:space="preserve">
+    <value>Sider på listeform</value>
+  </data>
+  <data name="txtPublisher" xml:space="preserve">
+    <value>Utgiver</value>
+  </data>
+  <data name="txtDownloadPage" xml:space="preserve">
+    <value>Last ned side</value>
+  </data>
+  <data name="txtDefaultViewer" xml:space="preserve">
+    <value>Default visning</value>
+  </data>
+  <data name="txtTooltipShowCopies" xml:space="preserve">
+    <value>Vis alle plate-kopier</value>
+  </data>
+  <data name="txtResetApprove" xml:space="preserve">
+    <value>Nulstil godkjenning</value>
+  </data>
+  <data name="txtDate" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="txtWeek" xml:space="preserve">
+    <value>Uke</value>
+  </data>
+  <data name="txtPagesReadyAction" xml:space="preserve">
+    <value>Meld alle sider klar</value>
+  </data>
+  <data name="txtAction" xml:space="preserve">
+    <value>Handling</value>
+  </data>
+  <data name="txtReadyAction" xml:space="preserve">
+    <value>Meld klar</value>
+  </data>
+  <data name="txtReadyActionMessageDefault" xml:space="preserve">
+    <value>Alle sider klar</value>
+  </data>
+  <data name="txtReadyActionMessageDefault2" xml:space="preserve">
+    <value>Sider ikke klar</value>
+  </data>
+  <data name="txtTooltipReadyAction" xml:space="preserve">
+    <value>Meld alle sider klar</value>
+  </data>
+  <data name="txtTooltipReadyActionCancel" xml:space="preserve">
+    <value>Avmeld klar-besked</value>
+  </data>
+  <data name="txtDomain" xml:space="preserve">
+    <value>Domæne</value>
+  </data>
+  <data name="txtInsertPages" xml:space="preserve">
+    <value>Sett inn sider</value>
+  </data>
+  <data name="txtTooltipInsertPages" xml:space="preserve">
+    <value>Innsæt sider i produkt</value>
+  </data>
+  <data name="txtFinalName" xml:space="preserve">
+    <value>Endeligt navn</value>
+  </data>
+  <data name="txtFirstInDocument" xml:space="preserve">
+    <value>Først i produkt</value>
+  </data>
+  <data name="txtLastInDocument" xml:space="preserve">
+    <value>Sist i produkt</value>
+  </data>
+  <data name="txtMiddleOfDocument" xml:space="preserve">
+    <value>Mitt i produkt</value>
+  </data>
+  <data name="txtPositionOfPage" xml:space="preserve">
+    <value>Plasering av sider</value>
+  </data>
+  <data name="txtSpecialPosition" xml:space="preserve">
+    <value>Spesiel position (angiv plasering)</value>
+  </data>
+  <data name="txtAfterPage" xml:space="preserve">
+    <value>Etter side</value>
+  </data>
+  <data name="txtDefinePagesToInsert" xml:space="preserve">
+    <value>Definér sider der skal settes inn</value>
+  </data>
+  <data name="txtPageNumber" xml:space="preserve">
+    <value>Sidenummer</value>
+  </data>
+  <data name="txtUploadPagesToInsert" xml:space="preserve">
+    <value>Last opp sider der skal settes inn</value>
+  </data>
+  <data name="txtFinish" xml:space="preserve">
+    <value>Utfør</value>
+  </data>
+  <data name="txtNext" xml:space="preserve">
+    <value>Neste</value>
+  </data>
+  <data name="txtPagesToInsert" xml:space="preserve">
+    <value>Antal sider der skal settes inn</value>
+  </data>
+  <data name="txtPrevious" xml:space="preserve">
+    <value>Tilbake</value>
+  </data>
+  <data name="txtInsertPagesInProduct" xml:space="preserve">
+    <value>Sett inn sider i produkt</value>
+  </data>
+  <data name="txtLetterToUse" xml:space="preserve">
+    <value>Bogstav i sidenavne</value>
+  </data>
+  <data name="txtStatNumberOfPlatesDamaged" xml:space="preserve">
+    <value>Ekstra plater beskadiget</value>
+  </data>
+  <data name="txtStatNumberOfPlatesUpdated" xml:space="preserve">
+    <value>Ekstra plater oppdateringer</value>
+  </data>
+  <data name="txtKillPagePermanently" xml:space="preserve">
+    <value>Slet side permanent fra plan</value>
+  </data>
+  <data name="txtLanguage" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="txtIssueDate" xml:space="preserve">
+    <value>Utgivelsesdato</value>
+  </data>
+  <data name="txtPackageFiles" xml:space="preserve">
+    <value>Pakkemateriel</value>
+  </data>
+  <data name="txtPaper" xml:space="preserve">
+    <value>Papir</value>
+  </data>
+  <data name="txtSaveFiles" xml:space="preserve">
+    <value>Gem fil(er)</value>
+  </data>
+  <data name="txtZone" xml:space="preserve">
+    <value>Sone</value>
+  </data>
+  <data name="txtDownloadPDF" xml:space="preserve">
+    <value>Last ned PDF</value>
+  </data>
+</root>

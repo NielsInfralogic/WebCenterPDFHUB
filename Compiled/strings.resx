@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtRealName" xml:space="preserve">
+    <value>Real name:</value>
+  </data>
+  <data name="txtEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="txtImagesPerRow" xml:space="preserve">
+    <value>Pages per row</value>
+  </data>
+  <data name="txtRefreshTime" xml:space="preserve">
+    <value>Auto-refresh time</value>
+  </data>
+  <data name="txtProfileFor" xml:space="preserve">
+    <value>Profile for</value>
+  </data>
+  <data name="txtSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="txtUserName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="txtPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="txtMustHavePassword" xml:space="preserve">
+    <value>You must supply a password</value>
+  </data>
+  <data name="txtMyProfile" xml:space="preserve">
+    <value>My profile</value>
+  </data>
+  <data name="txtContactAdmin" xml:space="preserve">
+    <value>Contact administrator</value>
+  </data>
+  <data name="txtChangePassword" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="txtUserLogin" xml:space="preserve">
+    <value>User login</value>
+  </data>
+  <data name="txtLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="txtHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="txtLogout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="txtAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="txtProductionTree" xml:space="preserve">
+    <value>Productions</value>
+  </data>
+  <data name="txtApprove" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="txtReject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="txtBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="txtHideApprovedPages" xml:space="preserve">
+    <value>Hide approved pages</value>
+  </data>
+  <data name="txtAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="txtDBerror" xml:space="preserve">
+    <value>Error accessing database</value>
+  </data>
+  <data name="txtHideDuplicates" xml:space="preserve">
+    <value>Hide duplicates</value>
+  </data>
+  <data name="txtLogViewer" xml:space="preserve">
+    <value>Log viewer</value>
+  </data>
+  <data name="txtLatestErrors" xml:space="preserve">
+    <value>Latest errors</value>
+  </data>
+  <data name="txtOutputLog" xml:space="preserve">
+    <value>Output log</value>
+  </data>
+  <data name="txtPollingLog" xml:space="preserve">
+    <value>Input log</value>
+  </data>
+  <data name="txtProcessDead" xml:space="preserve">
+    <value>Process dead</value>
+  </data>
+  <data name="txtRefresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="txtTransmitLog" xml:space="preserve">
+    <value>Transmit log</value>
+  </data>
+  <data name="txtRipLog" xml:space="preserve">
+    <value>RIP log</value>
+  </data>
+  <data name="txtPages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="txtPlates" xml:space="preserve">
+    <value>Plates</value>
+  </data>
+  <data name="txtRuns" xml:space="preserve">
+    <value>Press runs</value>
+  </data>
+  <data name="txtFlow" xml:space="preserve">
+    <value>Flow</value>
+  </data>
+  <data name="txtSeps" xml:space="preserve">
+    <value>Separations</value>
+  </data>
+  <data name="txtPublication" xml:space="preserve">
+    <value>Publication</value>
+  </data>
+  <data name="txtEdition" xml:space="preserve">
+    <value>Edition</value>
+  </data>
+  <data name="txtIssue" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="txtSection" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="txtPubDate" xml:space="preserve">
+    <value>PubDate</value>
+  </data>
+  <data name="txtReImage" xml:space="preserve">
+    <value>Re-image</value>
+  </data>
+  <data name="txtKillColor" xml:space="preserve">
+    <value>Kill color</value>
+  </data>
+  <data name="txtPriority" xml:space="preserve">
+    <value>Change priority</value>
+  </data>
+  <data name="txtLogToShow" xml:space="preserve">
+    <value>Log to show</value>
+  </data>
+  <data name="txtSelectMode" xml:space="preserve">
+    <value>Select mode</value>
+  </data>
+  <data name="txtOnHold" xml:space="preserve">
+    <value>On Hold</value>
+  </data>
+  <data name="txtReleased" xml:space="preserve">
+    <value>Released</value>
+  </data>
+  <data name="txtApproved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="txtRejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="txtDownloadJava" xml:space="preserve">
+    <value>Download Flash runtime</value>
+  </data>
+  <data name="txtNotes" xml:space="preserve">
+    <value>Download instructions</value>
+  </data>
+  <data name="txtTemplate" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="txtNotApproved" xml:space="preserve">
+    <value>Not approved</value>
+  </data>
+  <data name="txtAllCopies" xml:space="preserve">
+    <value>All copies</value>
+  </data>
+  <data name="txtPriority2" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="txtAllPages" xml:space="preserve">
+    <value>All pages on plate</value>
+  </data>
+  <data name="txtAllColors" xml:space="preserve">
+    <value>All colors</value>
+  </data>
+  <data name="txtCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txtApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="txtUserNotFound" xml:space="preserve">
+    <value>User name not found</value>
+  </data>
+  <data name="txtPasswordNotMatch" xml:space="preserve">
+    <value>Password does not match. Try again.</value>
+  </data>
+  <data name="txtAccountDisabled" xml:space="preserve">
+    <value>Your account is currently disabled - contact the system administrator</value>
+  </data>
+  <data name="txtNoApprovalRequired" xml:space="preserve">
+    <value>No approval required</value>
+  </data>
+  <data name="txtFrontSide" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="txtBackSide" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="txtOf" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="txtPlateSize" xml:space="preserve">
+    <value>Plate size</value>
+  </data>
+  <data name="txtPress" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="txtSendMailOnReject" xml:space="preserve">
+    <value>Send mail on reject</value>
+  </data>
+  <data name="txtComment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="txtPlan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="txtAddPlan" xml:space="preserve">
+    <value>Add plan</value>
+  </data>
+  <data name="txtAddPlan2" xml:space="preserve">
+    <value>Add temporary page list plan to system</value>
+  </data>
+  <data name="txtPubDate2" xml:space="preserve">
+    <value>Publication date</value>
+  </data>
+  <data name="txtApprovalRequired" xml:space="preserve">
+    <value>Approval required</value>
+  </data>
+  <data name="txtCombineSections" xml:space="preserve">
+    <value>Combine sections to one press run</value>
+  </data>
+  <data name="txtSections" xml:space="preserve">
+    <value>Section(s)</value>
+  </data>
+  <data name="txtPress2" xml:space="preserve">
+    <value>Press (if known)</value>
+  </data>
+  <data name="txtTemplate2" xml:space="preserve">
+    <value>Template (if known)</value>
+  </data>
+  <data name="txtProofMethod" xml:space="preserve">
+    <value>Proof method</value>
+  </data>
+  <data name="txtSavePlan" xml:space="preserve">
+    <value>Save plan</value>
+  </data>
+  <data name="txtCloseColors" xml:space="preserve">
+    <value>Close color table</value>
+  </data>
+  <data name="txtReloadCaches" xml:space="preserve">
+    <value>Reload caches</value>
+  </data>
+  <data name="txtAdminTasks" xml:space="preserve">
+    <value>Administrative tasks</value>
+  </data>
+  <data name="txtPlanHeader" xml:space="preserve">
+    <value>Create new plans</value>
+  </data>
+  <data name="txtOffset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="txtPagePrefix" xml:space="preserve">
+    <value>Pagename prefix</value>
+  </data>
+  <data name="txtPagePostfix" xml:space="preserve">
+    <value>Pagename postfix</value>
+  </data>
+  <data name="txtColors" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="txtCopies" xml:space="preserve">
+    <value>Copies</value>
+  </data>
+  <data name="txtPage" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="ColumnIndex_Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="txtStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="txtExtStatus" xml:space="preserve">
+    <value>ExtStatus</value>
+  </data>
+  <data name="txtHold" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="txtSheetSide" xml:space="preserve">
+    <value>Sheetside</value>
+  </data>
+  <data name="txtInput" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="txtOutput" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="txtState" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="txtShowInactive" xml:space="preserve">
+    <value>Show inactive</value>
+  </data>
+  <data name="txtColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="txtVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="txtProductionLocked" xml:space="preserve">
+    <value>Production is locked for changes - action aborted</value>
+  </data>
+  <data name="txtPageFormat" xml:space="preserve">
+    <value>Page format</value>
+  </data>
+  <data name="txtSpreads" xml:space="preserve">
+    <value>Spreads</value>
+  </data>
+  <data name="txtTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="txtStatistics" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="txtChooseProduct" xml:space="preserve">
+    <value>Choose product in the tree</value>
+  </data>
+  <data name="txtTooltipPages" xml:space="preserve">
+    <value>View thumbnail pages</value>
+  </data>
+  <data name="txtTooltipSpreads" xml:space="preserve">
+    <value>View pages two by two</value>
+  </data>
+  <data name="txtTooltipPlates" xml:space="preserve">
+    <value>View flat (plate) status</value>
+  </data>
+  <data name="txtTooltipRuns" xml:space="preserve">
+    <value>Show active press runs</value>
+  </data>
+  <data name="txtTooltipFlow" xml:space="preserve">
+    <value>Show system overview</value>
+  </data>
+  <data name="txtTooltipPlan" xml:space="preserve">
+    <value>Add page plans to system</value>
+  </data>
+  <data name="txtTooltipStatistics" xml:space="preserve">
+    <value>View input/output statistical data</value>
+  </data>
+  <data name="txtTooltipHelp" xml:space="preserve">
+    <value>View online help</value>
+  </data>
+  <data name="txtTooltipExpand" xml:space="preserve">
+    <value>Expand production tree</value>
+  </data>
+  <data name="txtTooltipCollapse" xml:space="preserve">
+    <value>Collapse production tree</value>
+  </data>
+  <data name="txtTooltipMyProfile" xml:space="preserve">
+    <value>Edit my user profile</value>
+  </data>
+  <data name="txtTooltipAbout" xml:space="preserve">
+    <value>WebCenter version information</value>
+  </data>
+  <data name="txtTooltipLogout" xml:space="preserve">
+    <value>Log out of  WebCenter</value>
+  </data>
+  <data name="txtTooltipImagesPerRow" xml:space="preserve">
+    <value>Adjust number of pages to show across the screen</value>
+  </data>
+  <data name="txtTooltipRefreshTime" xml:space="preserve">
+    <value>Refresh time</value>
+  </data>
+  <data name="txtTooltipHideApprovedPages" xml:space="preserve">
+    <value>Hide pages already approved</value>
+  </data>
+  <data name="txtTooltipHideDuplicates" xml:space="preserve">
+    <value>Hide duplicated sub-edition pages</value>
+  </data>
+  <data name="txtPagesPerHour" xml:space="preserve">
+    <value>Pages per hour</value>
+  </data>
+  <data name="txtTooltipClickTreeNode" xml:space="preserve">
+    <value>Select a publicarion/edition or section to show page data</value>
+  </data>
+  <data name="txtTooltipMoveFieldUp" xml:space="preserve">
+    <value>Move field up in the column list</value>
+  </data>
+  <data name="txtTooltipMoveFieldDown" xml:space="preserve">
+    <value>Move field down in the column list</value>
+  </data>
+  <data name="txtTooltipReloadCaches" xml:space="preserve">
+    <value>Re-load cached names from database</value>
+  </data>
+  <data name="txtTooltipSaveProfile" xml:space="preserve">
+    <value>Save settings to database</value>
+  </data>
+  <data name="txtTooltipApprovePages" xml:space="preserve">
+    <value>Click to approve pages</value>
+  </data>
+  <data name="txtTooltipApprovePage" xml:space="preserve">
+    <value>Click to approve page</value>
+  </data>
+  <data name="txtTooltipDisapprovePage" xml:space="preserve">
+    <value>Click to reject page</value>
+  </data>
+  <data name="txtTooltipDisapprovePages" xml:space="preserve">
+    <value>Click to reject pages</value>
+  </data>
+  <data name="txtTooltipSendMailOnReject" xml:space="preserve">
+    <value>Select to automatically send a mail on page reject including preview image of the page</value>
+  </data>
+  <data name="txtTooltipBack" xml:space="preserve">
+    <value>Back to thumbnail view</value>
+  </data>
+  <data name="txtTooltipReadviewBackward" xml:space="preserve">
+    <value>Click to view the previous two pages</value>
+  </data>
+  <data name="txtTooltipReadviewForward" xml:space="preserve">
+    <value>Click to view the next two pages</value>
+  </data>
+  <data name="txtReadviewBackward" xml:space="preserve">
+    <value>Appr. &amp; Previous</value>
+  </data>
+  <data name="txtReadviewForward" xml:space="preserve">
+    <value>Appr. &amp; Next</value>
+  </data>
+  <data name="txtTooltipClickImages" xml:space="preserve">
+    <value>Click on page to show preview</value>
+  </data>
+  <data name="txtTooltipShowFtpInfo" xml:space="preserve">
+    <value>Click to see FTP status message</value>
+  </data>
+  <data name="txtTooltipShowPreflightInfo" xml:space="preserve">
+    <value>Click to see preflight message</value>
+  </data>
+  <data name="txtTooltipShowRIPInfo" xml:space="preserve">
+    <value>Click to see RIP message</value>
+  </data>
+  <data name="txtTooltipShowColorInfo" xml:space="preserve">
+    <value>Click to see Color message</value>
+  </data>
+  <data name="txtTooltipViewPDF" xml:space="preserve">
+    <value>View PDF file</value>
+  </data>
+  <data name="txtTooltipChangeColor" xml:space="preserve">
+    <value>Click to change colors</value>
+  </data>
+  <data name="txtTooltipSeps" xml:space="preserve">
+    <value>Click to switch between pages/separations</value>
+  </data>
+  <data name="txtTooltipReImage" xml:space="preserve">
+    <value>Click to re-image selected page separations</value>
+  </data>
+  <data name="txtTooltipKillColo" xml:space="preserve">
+    <value>Click to disable selected colors (or re-enable previously disabled colors)</value>
+  </data>
+  <data name="txtTooltipPriority" xml:space="preserve">
+    <value>Click to change priorities on selected pages</value>
+  </data>
+  <data name="txtTooltipTemplate" xml:space="preserve">
+    <value>Click to change layout template for selected  pages</value>
+  </data>
+  <data name="txtTooltipShowInactive" xml:space="preserve">
+    <value>Click to show/hide inactive color separations</value>
+  </data>
+  <data name="txtHideInputTime" xml:space="preserve">
+    <value>Hide input time</value>
+  </data>
+  <data name="txtHideApproveTime" xml:space="preserve">
+    <value>Hide approve time</value>
+  </data>
+  <data name="txtHideOutputTime" xml:space="preserve">
+    <value>Hide output time</value>
+  </data>
+  <data name="txtTooltipHideInputTime" xml:space="preserve">
+    <value>Click to hide/show input time statistics</value>
+  </data>
+  <data name="txtTooltipHideApproveTime" xml:space="preserve">
+    <value>Click to hide/show approve time statistics</value>
+  </data>
+  <data name="txtTooltipHideOutputTime" xml:space="preserve">
+    <value>Click to hide/show output time statistics</value>
+  </data>
+  <data name="txtStatNumberOfPages" xml:space="preserve">
+    <value>Number of pages</value>
+  </data>
+  <data name="txtStatPagesInput" xml:space="preserve">
+    <value>Pages input</value>
+  </data>
+  <data name="txtStatFirstPageInput" xml:space="preserve">
+    <value>First page input</value>
+  </data>
+  <data name="txtStatLastPageInput" xml:space="preserve">
+    <value>Last page input</value>
+  </data>
+  <data name="txtStatPagesApproved" xml:space="preserve">
+    <value>Pages approved</value>
+  </data>
+  <data name="txtStatFirstPageApproved" xml:space="preserve">
+    <value>First page approved</value>
+  </data>
+  <data name="txtStatLastPageApproved" xml:space="preserve">
+    <value>Last page approved</value>
+  </data>
+  <data name="txtStatPagesOutput" xml:space="preserve">
+    <value>Pages output</value>
+  </data>
+  <data name="txtStatFirstPageOutput" xml:space="preserve">
+    <value>First page output</value>
+  </data>
+  <data name="txtStatLastPageOutput" xml:space="preserve">
+    <value>Last page output</value>
+  </data>
+  <data name="txtStatNumberOfPlates" xml:space="preserve">
+    <value>Number of plates</value>
+  </data>
+  <data name="txtStatNumberOfPlatesOutput" xml:space="preserve">
+    <value>Number of plates output</value>
+  </data>
+  <data name="txtStatPageVersionStat" xml:space="preserve">
+    <value>Page version statistics</value>
+  </data>
+  <data name="txtApproval" xml:space="preserve">
+    <value>Approval</value>
+  </data>
+  <data name="txtTooltipAddPlan" xml:space="preserve">
+    <value>Add intermediate page plan to system</value>
+  </data>
+  <data name="txtSpecial" xml:space="preserve">
+    <value>Special</value>
+    <comment>Special color select in planning</comment>
+  </data>
+  <data name="txtTooltipSpecial" xml:space="preserve">
+    <value>Click to edit special color selection</value>
+  </data>
+  <data name="txtTooltipSavePlan" xml:space="preserve">
+    <value>Save page list to production database</value>
+  </data>
+  <data name="txtDensityMap" xml:space="preserve">
+    <value>Density map</value>
+  </data>
+  <data name="txtTooltipAllCopies" xml:space="preserve">
+    <value>Apply change to all plate copies</value>
+  </data>
+  <data name="txtTooltipAllPages" xml:space="preserve">
+    <value>Apply changes to all pages on the plate</value>
+  </data>
+  <data name="txtTooltipAllColors" xml:space="preserve">
+    <value>Apply changes to all color separations</value>
+  </data>
+  <data name="txtColorsForPage" xml:space="preserve">
+    <value>Colors for page</value>
+  </data>
+  <data name="txtTooltipStatGraph1" xml:space="preserve">
+    <value>Graphs show accumulared page input/approval/output progress over time</value>
+  </data>
+  <data name="txtTooltipStatGraph2" xml:space="preserve">
+    <value>Graphs show throughput for page input/approval/output over time as pages/hour</value>
+  </data>
+  <data name="txtTooltipSelectDeselctAll" xml:space="preserve">
+    <value>Select/de-select all</value>
+  </data>
+  <data name="txtTooltipSelectDeselct" xml:space="preserve">
+    <value>Select/de-select item</value>
+  </data>
+  <data name="txtDevice" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="txtInputTime" xml:space="preserve">
+    <value>Input time</value>
+  </data>
+  <data name="txtApproveTime" xml:space="preserve">
+    <value>Approve time</value>
+  </data>
+  <data name="txtOutputTime" xml:space="preserve">
+    <value>Output time</value>
+  </data>
+  <data name="txtCopyNumber" xml:space="preserve">
+    <value>Copy number</value>
+  </data>
+  <data name="txtPagination" xml:space="preserve">
+    <value>Pagination</value>
+  </data>
+  <data name="txtLastError" xml:space="preserve">
+    <value>Last error</value>
+  </data>
+  <data name="txtLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="txtSheetNumber" xml:space="preserve">
+    <value>Sheet number</value>
+  </data>
+  <data name="txtDeadLine" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="txtActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="txtPagePositions" xml:space="preserve">
+    <value>Page pos.</value>
+  </data>
+  <data name="txtVerifyTime" xml:space="preserve">
+    <value>Verify time</value>
+  </data>
+  <data name="txtProofStatus" xml:space="preserve">
+    <value>Proofstatus</value>
+  </data>
+  <data name="txtPageType" xml:space="preserve">
+    <value>Pagetype</value>
+  </data>
+  <data name="txtPagesPerPlate" xml:space="preserve">
+    <value>Pages per plate</value>
+  </data>
+  <data name="txtUnique" xml:space="preserve">
+    <value>Unique page</value>
+  </data>
+  <data name="txtUse" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="txtStatNumberOfPlatesUsed" xml:space="preserve">
+    <value>Plates actually used</value>
+  </data>
+  <data name="txtFTPStatusNotReceived" xml:space="preserve">
+    <value>Not received</value>
+  </data>
+  <data name="txtPreflightNotPrefligted" xml:space="preserve">
+    <value>Not preflighted</value>
+  </data>
+  <data name="txtRIPNotRipped" xml:space="preserve">
+    <value>Not ripped</value>
+  </data>
+  <data name="txtNoPublications" xml:space="preserve">
+    <value>No publications</value>
+  </data>
+  <data name="txtColorNotAnalyzed" xml:space="preserve">
+    <value>Not analyzed</value>
+  </data>
+  <data name="txtIPoutofrange" xml:space="preserve">
+    <value>Your IP-address is not in valid range</value>
+  </data>
+  <data name="txtDefaultPageFormat" xml:space="preserve">
+    <value>Default page format</value>
+  </data>
+  <data name="txtDefaultSoftproof" xml:space="preserve">
+    <value>Default softproof setting</value>
+  </data>
+  <data name="txtDefaultHardproof" xml:space="preserve">
+    <value>Default hard proof method</value>
+  </data>
+  <data name="txtTrimToPageFormat" xml:space="preserve">
+    <value>Trim to page format</value>
+  </data>
+  <data name="txtMustApprove" xml:space="preserve">
+    <value>Must approve</value>
+  </data>
+  <data name="txtDefaultApprove" xml:space="preserve">
+    <value>Default approve method</value>
+  </data>
+  <data name="txtProductionLockTime" xml:space="preserve">
+    <value>Production lock time before pubdate (hours)</value>
+  </data>
+  <data name="txtAddNewPublicationName" xml:space="preserve">
+    <value>Add new publication name</value>
+  </data>
+  <data name="txtNewPublicationName" xml:space="preserve">
+    <value>New publication name</value>
+  </data>
+  <data name="txtNewPageformatName" xml:space="preserve">
+    <value>New page format name</value>
+  </data>
+  <data name="txtPageFormatWidth" xml:space="preserve">
+    <value>Page format width (mm)</value>
+  </data>
+  <data name="txtPageFormatHeight" xml:space="preserve">
+    <value>Page format height (mm)</value>
+  </data>
+  <data name="txtPageFormatBleed" xml:space="preserve">
+    <value>Page format bleed (mm)</value>
+  </data>
+  <data name="txtAddNewPageformatName" xml:space="preserve">
+    <value>Add new page format</value>
+  </data>
+  <data name="txtAddNew" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="txtTooltipUploadFiles" xml:space="preserve">
+    <value>Upload files to central server</value>
+  </data>
+  <data name="txtUploadFiles" xml:space="preserve">
+    <value>Upload files</value>
+  </data>
+  <data name="txtClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="txtApprovedBy" xml:space="preserve">
+    <value>Approved by</value>
+  </data>
+  <data name="txtFinalVersion" xml:space="preserve">
+    <value>Final version</value>
+  </data>
+  <data name="txtMessage" xml:space="preserve">
+    <value>message</value>
+  </data>
+  <data name="txtProduct" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="txtDownloadExcel" xml:space="preserve">
+    <value>Standard Excel report</value>
+  </data>
+  <data name="txtPlateReadyTime" xml:space="preserve">
+    <value>Form ready</value>
+  </data>
+  <data name="txtViewTime" xml:space="preserve">
+    <value>View time</value>
+  </data>
+  <data name="txtViewedBy" xml:space="preserve">
+    <value>Viewed by</value>
+  </data>
+  <data name="txtDownload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="txtDownloadCustomExcel" xml:space="preserve">
+    <value>Custom Excel report</value>
+  </data>
+  <data name="txtEditionName" xml:space="preserve">
+    <value>Edition name</value>
+  </data>
+  <data name="txtDefaultPagetypeForEdition" xml:space="preserve">
+    <value>Default pagetype for new sub-edition</value>
+  </data>
+  <data name="txtEditions" xml:space="preserve">
+    <value>Editions</value>
+  </data>
+  <data name="txtAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="txtDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lblEditionInfo" xml:space="preserve">
+    <value>Add sections before adding sub-editions</value>
+  </data>
+  <data name="txtAddEditions" xml:space="preserve">
+    <value>Add sub-editions</value>
+  </data>
+  <data name="txtSpread" xml:space="preserve">
+    <value>Spread</value>
+  </data>
+  <data name="txtDownloadAll" xml:space="preserve">
+    <value>Download all previews</value>
+  </data>
+  <data name="txtTooltipDownloadAll" xml:space="preserve">
+    <value>Download all page previews as one PDF document</value>
+  </data>
+  <data name="txtHardproofConfig" xml:space="preserve">
+    <value>Hardproof configuration</value>
+  </data>
+  <data name="txtIgnoreApproval" xml:space="preserve">
+    <value>Ignore approval</value>
+  </data>
+  <data name="txtTooltipIgnoreApproval" xml:space="preserve">
+    <value>Print even if page has not been approved</value>
+  </data>
+  <data name="txtOrder" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="txtPressTime" xml:space="preserve">
+    <value>Presstime</value>
+  </data>
+  <data name="txtMainEdition" xml:space="preserve">
+    <value>Main edition</value>
+  </data>
+  <data name="txtPlanAdded" xml:space="preserve">
+    <value>Plan added to system</value>
+  </data>
+  <data name="txtPlanUpdateSettings" xml:space="preserve">
+    <value>Plan update settings</value>
+  </data>
+  <data name="txtKeepExistingColors" xml:space="preserve">
+    <value>Keep existing colors</value>
+  </data>
+  <data name="txtKeepExistingApproval" xml:space="preserve">
+    <value>Keep existing approval</value>
+  </data>
+  <data name="txtKeepExistingUnique" xml:space="preserve">
+    <value>Keep existing unique/common page settings</value>
+  </data>
+  <data name="txtDeletePlanText" xml:space="preserve">
+    <value>Delete temporary page list plan to system</value>
+  </data>
+  <data name="txtDeletePlan" xml:space="preserve">
+    <value>Delete plan</value>
+  </data>
+  <data name="txtEditPlanText" xml:space="preserve">
+    <value>Edit existing temporary page list plan in system</value>
+  </data>
+  <data name="txtEditPlan" xml:space="preserve">
+    <value>Edit plan</value>
+  </data>
+  <data name="txtCirculation" xml:space="preserve">
+    <value>Circulation</value>
+  </data>
+  <data name="txtCirculation2" xml:space="preserve">
+    <value>Additional circulation</value>
+  </data>
+  <data name="txtNoSectionsPlanned" xml:space="preserve">
+    <value>Add sections first</value>
+  </data>
+  <data name="txtNoSectionsDefined" xml:space="preserve">
+    <value>No sections defined</value>
+  </data>
+  <data name="txtTooltipForward" xml:space="preserve">
+    <value>Click to show next page</value>
+  </data>
+  <data name="txtTooltipBackward" xml:space="preserve">
+    <value>Click to show previous page</value>
+  </data>
+  <data name="txtApproveBeforeNext" xml:space="preserve">
+    <value>Approve before moving to next page</value>
+  </data>
+  <data name="txtTooltipApproveBeforeNext" xml:space="preserve">
+    <value>Enable to approve current page when moving forward/backward</value>
+  </data>
+  <data name="txtPageHistory" xml:space="preserve">
+    <value>Page History</value>
+  </data>
+  <data name="txtReadviewBackwardDis" xml:space="preserve">
+    <value>Reject &amp; Previous</value>
+  </data>
+  <data name="txtReadviewForwardDis" xml:space="preserve">
+    <value>Reject &amp; Next</value>
+  </data>
+  <data name="txtBackward" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="txtNext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="txtForward" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="txtMessages" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="txtTooltipMessages" xml:space="preserve">
+    <value>View or create messages</value>
+  </data>
+  <data name="txtMaxPlanPagesAllowed" xml:space="preserve">
+    <value>Page count exceeds the limit set to </value>
+  </data>
+  <data name="txtWeekNumber" xml:space="preserve">
+    <value>Week number</value>
+  </data>
+  <data name="lblWeekNumber2" xml:space="preserve">
+    <value>(0: Not used)</value>
+  </data>
+  <data name="txtShowReportArchive" xml:space="preserve">
+    <value>Show report archive</value>
+  </data>
+  <data name="txtReportArchive" xml:space="preserve">
+    <value>Report Archive</value>
+  </data>
+  <data name="txtShowMonthlySummary" xml:space="preserve">
+    <value>Monthly Summary</value>
+  </data>
+  <data name="txtStatColorsets" xml:space="preserve">
+    <value>Color sets</value>
+  </data>
+  <data name="txtStatMonosets" xml:space="preserve">
+    <value>Mono sets</value>
+  </data>
+  <data name="txtMask" xml:space="preserve">
+    <value>Mask</value>
+  </data>
+  <data name="txtTooltipMask" xml:space="preserve">
+    <value>Show trim mask</value>
+  </data>
+  <data name="txtRelease" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="txtTooltipReleasePlates" xml:space="preserve">
+    <value>Release plates</value>
+  </data>
+  <data name="txtTooltipHoldPlates" xml:space="preserve">
+    <value>Hold plates</value>
+  </data>
+  <data name="txtTrim" xml:space="preserve">
+    <value>Trim</value>
+  </data>
+  <data name="txtRetransmitForm" xml:space="preserve">
+    <value>Retransmit form</value>
+  </data>
+  <data name="txtReleaseForm" xml:space="preserve">
+    <value>Release form</value>
+  </data>
+  <data name="txtHoldForm" xml:space="preserve">
+    <value>Hold form</value>
+  </data>
+  <data name="txtReimageForm" xml:space="preserve">
+    <value>Reimage form</value>
+  </data>
+  <data name="txtTransmitted" xml:space="preserve">
+    <value>Transmitted</value>
+  </data>
+  <data name="txtApproveAll" xml:space="preserve">
+    <value>Approve all</value>
+  </data>
+  <data name="txtTooltipApproveAll" xml:space="preserve">
+    <value>Approve all pages</value>
+  </data>
+  <data name="txtChannel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="txtChannels" xml:space="preserve">
+    <value>Channels</value>
+  </data>
+  <data name="txtRetransmittochannels" xml:space="preserve">
+    <value>Retransmit to channel(s)</value>
+  </data>
+  <data name="txtRetry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="txtTooltipRetry" xml:space="preserve">
+    <value>Retry selected file(s)</value>
+  </data>
+  <data name="txtTooltipDelete" xml:space="preserve">
+    <value>Delete selected file(s) from error folder</value>
+  </data>
+  <data name="txtUnknownFiles" xml:space="preserve">
+    <value>Unknown files</value>
+  </data>
+  <data name="txtTooltipUnknownFiles" xml:space="preserve">
+    <value>View unregistred input files</value>
+  </data>
+  <data name="txtProgress" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="txtRetransmittolocations" xml:space="preserve">
+    <value>Retransmit to locations</value>
+  </data>
+  <data name="txtLocations" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="txtReleaseAll" xml:space="preserve">
+    <value>Release all</value>
+  </data>
+  <data name="txtTooltipReleaseAll" xml:space="preserve">
+    <value>Release all forms</value>
+  </data>
+  <data name="txtHideOld" xml:space="preserve">
+    <value>Hide old</value>
+  </data>
+  <data name="txtTooltipHideOld" xml:space="preserve">
+    <value>Hide product with pubdate older than today</value>
+  </data>
+  <data name="txtTransmitting" xml:space="preserve">
+    <value>Transmitting</value>
+  </data>
+  <data name="txtPaired" xml:space="preserve">
+    <value>Paired</value>
+  </data>
+  <data name="txtMissing" xml:space="preserve">
+    <value>Missing</value>
+  </data>
+  <data name="txtError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="txtReady" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="txtReleaseSpecial" xml:space="preserve">
+    <value>Release to specific press</value>
+  </data>
+  <data name="txtTooltipReleasePlatesSpecial" xml:space="preserve">
+    <value>Release to selectable press</value>
+  </data>
+  <data name="txtReleasetolocations" xml:space="preserve">
+    <value>Release to specific loaction(s)</value>
+  </data>
+  <data name="txtReallyKillPage" xml:space="preserve">
+    <value>Really kill page</value>
+  </data>
+  <data name="txtKillPageTooltip" xml:space="preserve">
+    <value>Kill page (set status=missing)</value>
+  </data>
+  <data name="txtReleaseNow" xml:space="preserve">
+    <value>Release forms now</value>
+  </data>
+  <data name="txtRetransmit" xml:space="preserve">
+    <value>Retransmit</value>
+  </data>
+  <data name="txtTooltiptxtRetransmitAll" xml:space="preserve">
+    <value>Re-transmit all forms</value>
+  </data>
+  <data name="txtRetransmitAll" xml:space="preserve">
+    <value>Re-transmit all</value>
+  </data>
+  <data name="txtCustomAction" xml:space="preserve">
+    <value>Send message</value>
+  </data>
+  <data name="txtTooltipCustomAction" xml:space="preserve">
+    <value>Send complete message </value>
+  </data>
+  <data name="txtReleaseBlack" xml:space="preserve">
+    <value>Release black</value>
+  </data>
+  <data name="txtReleaseBlackForm" xml:space="preserve">
+    <value>Release black form</value>
+  </data>
+  <data name="txtNotImaged" xml:space="preserve">
+    <value>Not imaged</value>
+  </data>
+  <data name="txtInputTimeAfterDeadline" xml:space="preserve">
+    <value>Received after deadline</value>
+  </data>
+  <data name="txtOverDeadline" xml:space="preserve">
+    <value>Over deadline</value>
+  </data>
+  <data name="txtShowAllPublications" xml:space="preserve">
+    <value>Show all publication names</value>
+  </data>
+  <data name="txtBend" xml:space="preserve">
+    <value>Bend</value>
+  </data>
+  <data name="txtHideDone" xml:space="preserve">
+    <value>Hide done</value>
+  </data>
+  <data name="txtStatusTooltip" xml:space="preserve">
+    <value>Show status view</value>
+  </data>
+  <data name="txtReprocessPage" xml:space="preserve">
+    <value>Re-process page</value>
+  </data>
+  <data name="txtReprocessPages" xml:space="preserve">
+    <value>Re-process pages</value>
+  </data>
+  <data name="txtApplyToAllEditions" xml:space="preserve">
+    <value>Apply to all editions</value>
+  </data>
+  <data name="txtApplyToAllSections" xml:space="preserve">
+    <value>Apply to all sections</value>
+  </data>
+  <data name="txtAllCommon" xml:space="preserve">
+    <value>All common</value>
+  </data>
+  <data name="txtAllUnique" xml:space="preserve">
+    <value>All unique</value>
+  </data>
+  <data name="txtEditSubeditions" xml:space="preserve">
+    <value>Edit subedition relationships</value>
+  </data>
+  <data name="txtSpecialEditionPages" xml:space="preserve">
+    <value>Unique/common pages</value>
+  </data>
+  <data name="txtPlatesPerRow" xml:space="preserve">
+    <value>Plates per row</value>
+  </data>
+  <data name="txtTooltipIPlatesPerRow" xml:space="preserve">
+    <value>Plate images per row</value>
+  </data>
+  <data name="txtDownloadPreviews" xml:space="preserve">
+    <value>Donwload JPEG images</value>
+  </data>
+  <data name="txtOrderReport" xml:space="preserve">
+    <value>Order product log report (Excel)</value>
+  </data>
+  <data name="txtChangeColor" xml:space="preserve">
+    <value>Change color</value>
+  </data>
+  <data name="txtHardproof" xml:space="preserve">
+    <value>Hardproof page</value>
+  </data>
+  <data name="txtKillPage" xml:space="preserve">
+    <value>Kill page</value>
+  </data>
+  <data name="txtReproof" xml:space="preserve">
+    <value>Reproof page</value>
+  </data>
+  <data name="txtTooltipShowCMYKPDFSplit" xml:space="preserve">
+    <value>Show CMYK ripped page and PDF side-by-side</value>
+  </data>
+  <data name="txtList" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="txtTooltipList" xml:space="preserve">
+    <value>Pages as list view</value>
+  </data>
+  <data name="txtPublisher" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="txtDownloadPage" xml:space="preserve">
+    <value>Download page</value>
+  </data>
+  <data name="txtDefaultViewer" xml:space="preserve">
+    <value>Default viewer</value>
+  </data>
+  <data name="txtTooltipShowCopies" xml:space="preserve">
+    <value>Show all plate copies</value>
+  </data>
+  <data name="txtSetExternalStatus" xml:space="preserve">
+    <value>Set External Status</value>
+  </data>
+  <data name="txtResetApprove" xml:space="preserve">
+    <value>Reset approval state</value>
+  </data>
+  <data name="txtTooltipPageNotInPlan" xml:space="preserve">
+    <value>Warning - page is outside press plan</value>
+  </data>
+  <data name="txtDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="txtWeek" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="txtPagesReadyAction" xml:space="preserve">
+    <value>Report pages ready</value>
+  </data>
+  <data name="txtAction" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="txtReadyAction" xml:space="preserve">
+    <value>Report ready</value>
+  </data>
+  <data name="txtReadyActionMessageDefault" xml:space="preserve">
+    <value>All pages ready</value>
+  </data>
+  <data name="txtReadyActionMessageDefault2" xml:space="preserve">
+    <value>Pages not ready</value>
+  </data>
+  <data name="txtTooltipReadyAction" xml:space="preserve">
+    <value>Report all pages ready for production</value>
+  </data>
+  <data name="txtTooltipReadyActionCancel" xml:space="preserve">
+    <value>Recall ready message</value>
+  </data>
+  <data name="txtDomain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="txtNoPressTemplatesDefined" xml:space="preserve">
+    <value>No press templates defined</value>
+  </data>
+  <data name="txtUserHasNoAdmgroup" xml:space="preserve">
+    <value>User does not belong to any Administrative Groups</value>
+  </data>
+  <data name="txtInsertPages" xml:space="preserve">
+    <value>Insert pages</value>
+  </data>
+  <data name="txtTooltipInsertPages" xml:space="preserve">
+    <value>Insert pages in product</value>
+  </data>
+  <data name="txtFinalName" xml:space="preserve">
+    <value>Final name</value>
+  </data>
+  <data name="txtFirstInDocument" xml:space="preserve">
+    <value>First in document</value>
+  </data>
+  <data name="txtLastInDocument" xml:space="preserve">
+    <value>Last in product</value>
+  </data>
+  <data name="txtMiddleOfDocument" xml:space="preserve">
+    <value>In middle of product</value>
+  </data>
+  <data name="txtPositionOfPage" xml:space="preserve">
+    <value>Position of pages</value>
+  </data>
+  <data name="txtSpecialPosition" xml:space="preserve">
+    <value>Special position (specify below)</value>
+  </data>
+  <data name="txtAfterPage" xml:space="preserve">
+    <value>After page</value>
+  </data>
+  <data name="txtDefinePagesToInsert" xml:space="preserve">
+    <value>Define pages to insert</value>
+  </data>
+  <data name="txtPageNumber" xml:space="preserve">
+    <value>Page number</value>
+  </data>
+  <data name="txtUploadPagesToInsert" xml:space="preserve">
+    <value>Upload page to insert</value>
+  </data>
+  <data name="txtFinish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="txtPagesToInsert" xml:space="preserve">
+    <value>Number of pages to insert</value>
+  </data>
+  <data name="txtPrevious" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="txtInsertPagesInProduct" xml:space="preserve">
+    <value>Insert pages in product</value>
+  </data>
+  <data name="txtLetterToUse" xml:space="preserve">
+    <value>Postfix letter</value>
+  </data>
+  <data name="txtStatNumberOfPlatesDamaged" xml:space="preserve">
+    <value>Extra plates due to damage</value>
+  </data>
+  <data name="txtStatNumberOfPlatesUpdated" xml:space="preserve">
+    <value>Extra plates due to updates</value>
+  </data>
+  <data name="txtKillPagePermanently" xml:space="preserve">
+    <value>Delete page from plan permanently</value>
+  </data>
+  <data name="txtCover" xml:space="preserve">
+    <value>Product with cover</value>
+  </data>
+  <data name="txtNumberOfPages" xml:space="preserve">
+    <value>Number of pages</value>
+  </data>
+  <data name="txtLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="txtIssueDate" xml:space="preserve">
+    <value>Issue date</value>
+  </data>
+  <data name="txtPackageFiles" xml:space="preserve">
+    <value>Files for mailroom</value>
+  </data>
+  <data name="txtPaper" xml:space="preserve">
+    <value>Paper</value>
+  </data>
+  <data name="txtSaveFiles" xml:space="preserve">
+    <value>Save file(s)</value>
+  </data>
+  <data name="txtZone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="txtDownloadPDF" xml:space="preserve">
+    <value>Download PDF</value>
+  </data>
+</root>

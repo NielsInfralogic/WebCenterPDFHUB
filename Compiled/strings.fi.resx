@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="txtRealName">
+		<value>Nimi:</value>
+	</data>
+	<data name="txtEmail">
+		<value>Sähköposti:</value>
+	</data>
+	<data name="txtImagesPerRow">
+		<value>Sivua per rivi</value>
+	</data>
+	<data name="txtRefreshTime">
+		<value>Ruudun päivitysaika</value>
+	</data>
+	<data name="txtProfileFor">
+		<value>Profiili:</value>
+	</data>
+	<data name="txtSave">
+		<value>Tallenna</value>
+	</data>
+	<data name="txtUserName">
+		<value>Käyttäjätunnus</value>
+	</data>
+	<data name="txtPassword">
+		<value>Salasana</value>
+	</data>
+	<data name="txtMustHavePassword">
+		<value>Kirjoita salasana</value>
+	</data>
+	<data name="txtMyProfile">
+		<value>Minun profiilini</value>
+	</data>
+	<data name="txtContactAdmin">
+		<value>Ota yhteys järjestelmävalvojaan</value>
+	</data>
+	<data name="txtChangePassword">
+		<value>Muuta salasana</value>
+	</data>
+	<data name="txtUserLogin">
+		<value>User login</value>
+	</data>
+	<data name="txtLogin">
+		<value>Kirjaudu sisään</value>
+	</data>
+	<data name="txtHelp">
+		<value>Ohjeet</value>
+	</data>
+	<data name="txtLogout">
+		<value>Kirjaudu ulos</value>
+	</data>
+	<data name="txtAbout">
+		<value>Tietoja</value>
+	</data>
+	<data name="txtProductionTree">
+		<value>Tuotanto</value>
+	</data>
+	<data name="txtApprove">
+		<value>Hyväksy</value>
+	</data>
+	<data name="txtReject">
+		<value>Hylkää</value>
+	</data>
+	<data name="txtBack">
+		<value>Takaisin</value>
+	</data>
+	<data name="txtHideApprovedPages">
+		<value>Piilota hyväksytyt sivut</value>
+	</data>
+	<data name="txtAll">
+		<value>Kaikki</value>
+	</data>
+	<data name="txtDBerror">
+		<value>Virhe sisäänkirjautuessa tietokantaan</value>
+	</data>
+	<data name="txtHideDuplicates">
+		<value>Piilota kopiot</value>
+	</data>
+	<data name="txtLogViewer">
+		<value>Log viewer</value>
+	</data>
+	<data name="txtLatestErrors">
+		<value>Latest errors</value>
+	</data>
+	<data name="txtOutputLog">
+		<value>Output log</value>
+	</data>
+	<data name="txtPollingLog">
+		<value>Input log</value>
+	</data>
+	<data name="txtProcessDead">
+		<value>Process dead</value>
+	</data>
+	<data name="txtRefresh">
+		<value>Päivitä</value>
+	</data>
+	<data name="txtTransmitLog">
+		<value>Transmit log</value>
+	</data>
+	<data name="txtRipLog">
+		<value>RIP log</value>
+	</data>
+	<data name="txtPages">
+		<value>Sivut</value>
+	</data>
+	<data name="txtPlates">
+		<value>Levyt</value>
+	</data>
+	<data name="txtRuns">
+		<value>Tuotannot</value>
+	</data>
+	<data name="txtFlow">
+		<value>Flow</value>
+	</data>
+	<data name="txtSeps">
+		<value>Erottelut</value>
+	</data>
+	<data name="txtPublication">
+		<value>Julkaisu</value>
+	</data>
+	<data name="txtEdition">
+		<value>Edition</value>
+	</data>
+	<data name="txtIssue">
+		<value>Issue</value>
+	</data>
+	<data name="txtSection">
+		<value>Sektio</value>
+	</data>
+	<data name="txtPubDate">
+		<value>Julkaisupäivä</value>
+	</data>
+	<data name="txtReImage">
+		<value>Tulosta uudelleen</value>
+	</data>
+	<data name="txtKillColor">
+		<value>Poista väri</value>
+	</data>
+	<data name="txtPriority">
+		<value>Muuta prioriteetti</value>
+	</data>
+	<data name="txtLogToShow">
+		<value>Log to show</value>
+	</data>
+	<data name="txtSelectMode">
+		<value>Valitse</value>
+	</data>
+	<data name="txtOnHold">
+		<value>Odottaa</value>
+	</data>
+	<data name="txtReleased">
+		<value>Vapautettu</value>
+	</data>
+	<data name="txtApproved">
+		<value>Hyväksytty</value>
+	</data>
+	<data name="txtRejected">
+		<value>Hylätty</value>
+	</data>
+	<data name="txtNoPublications">
+		<value>Ei julkaisuja</value>
+	</data>
+	<data name="txtRejected">
+		<value>Hylätty</value>
+	</data>
+	<data name="txtDownloadJava">
+		<value>Lataa Flash</value>
+	</data>
+	<data name="txtNotes">
+		<value>Lue ohjeet</value>
+	</data>
+	<data name="txtNotApproved">
+		<value>Not approved</value>
+	</data>
+	<data name="txtTemplate">
+		<value>Change template</value>
+	</data>
+	<data name="txtAllCopies">
+		<value>All copies</value>
+	</data>
+	<data name="txtTemplate">
+		<value>Template</value>
+	</data>
+	<data name="txtPriority2">
+		<value>Prioriteetti</value>
+	</data>
+	<data name="txtAllPages">
+		<value>All pages on plate</value>
+	</data>
+	<data name="txtAllColors">
+		<value>All colors</value>
+	</data>
+	<data name="txtApply">
+		<value>Apply</value>
+	</data>
+	<data name="txtCancel">
+		<value>Cancel</value>
+	</data>
+	<data name="txtUserNotFound">
+		<value>Username not found</value>
+	</data>
+	<data name="txtPasswordNotMatch">
+		<value>Password does not match. Try again.</value>
+	</data>
+	<data name="txtAccountDisabled">
+		<value>Your account is currently disabled - contact the system administrator</value>
+	</data>
+	<data name="txtBackSide">
+		<value>Back</value>
+	</data>
+	<data name="txtFrontSide">
+		<value>Front</value>
+	</data>
+	<data name="txtOf">
+		<value>of</value>
+	</data>
+	<data name="txtPlateSize">
+		<value>Plate size</value>
+	</data>
+	<data name="txtPress">
+		<value>Press</value>
+	</data>
+	<data name="txtSendMailOnReject">
+		<value>Send mail on reject</value>
+	</data>
+	<data name="txtComment">
+		<value>Comment</value>
+	</data>
+	<data name="txtPlan">
+		<value>Plan</value>
+	</data>
+	<data name="txtPlateReadyTime">
+		<value>Plate ready time</value>
+	</data>
+	<data name="txtSpread">
+		<value>Spread</value>
+	</data>
+</root>

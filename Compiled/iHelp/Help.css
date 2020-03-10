@@ -1,0 +1,69 @@
+/* Default CSS Stylesheet for a new Web Application project */
+
+BODY
+{
+	font-weight: normal;
+	font-size: 8; 
+	background-color: ffffff;
+	word-spacing: normal;
+	text-transform: none;
+	font-family: Verdana;
+	letter-spacing: normal;
+}	
+
+A:link	
+{
+	
+	text-decoration:	none;
+	color:	#003366;
+	}	
+		
+A:visited	{	
+	
+	text-decoration:	none;
+	color:	#003366;
+	}	
+		
+A:active	{	
+	
+	text-decoration:	none;
+	color:	#003366;
+	}	
+		
+A:hover	{	
+	
+	text-decoration:	underline;
+	color:	#3333cc;
+	}
+	
+.Text
+{
+	font-family: Verdana;
+	font-size: 8; 
+	font-weight: normal; 
+	color:black;
+}
+
+.Label
+{
+	font-family: Verdana;
+	font-size: 10;
+	font-weight: bold; 
+	color:#253d91;
+}
+
+.Tab
+{
+	font-family: Verdana;
+	font-weight: bold; 
+	color:#003366;
+}
+
+.Button
+{
+	font-family: Verdana; 
+	font-size: 10;
+	font-weight: bold; 
+	color:Black
+}
+

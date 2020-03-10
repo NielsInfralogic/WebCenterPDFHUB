@@ -1,0 +1,11 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html>
+<head>
+</head>
+<body onload='location.href="Login.aspx?auto"'>
+	<form>
+		<input type="hidden" name="name" value="admin"/> 
+		<input type="hidden" name="password" value="root"/> 
+	</form>
+</body>
+</html>
